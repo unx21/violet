@@ -1,9 +1,10 @@
-# kuriyama
-![logo](https://1.bp.blogspot.com/-fN_KlHPtVmU/WnWCu3QrM9I/AAAAAAAADqw/Jm0Gd08MeHk89k00pt4KD2ygt_QshL1QwCEwYBhgL/s1600/%255BKORIGENGI-FAKHRI%255D%2BMirai%2B-%2BI%2527ll%2BBe%2BHere.png)
+# Violet
+![Violet Evergarden](https://user-images.githubusercontent.com/84166927/126068743-ff713e80-ebb3-4aa1-9888-5b5d67b78799.png)
 
-### Simple WhatsApp Bot for Group
 
-Recode [`wabot-aq`](https://GitHub.com/Nurutomo/wabot-aq)
+### Violet Here, Need Some Help?
+
+Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 
 ### Prefix
 . # (default)
