@@ -17,7 +17,7 @@ try {
   let url = await uploadImage(img).catch(e => uploadFile(img))
   let meme = global.API('https://api.memegen.link', `/images/custom/${encodeURIComponent(text1)}/${encodeURIComponent(text2)}.png`, {
     background: url })
-  let stiker = await sticker(null, meme, 'Sticker Meme', '@Kokoronationz')
+  let stiker = await sticker(null, meme, 'Sticker Meme', 'Violet')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
