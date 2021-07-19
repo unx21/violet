@@ -48,12 +48,12 @@ const defaultMenu = {
 ┃ ❖ *Hari:* %week %weton
 ┃ ❖ *Tanggal:* %date
 ┃ ❖ *Tanggal Islam:* %dateIslamic
-┃ ❖ *Waktu:* %time WIB
+┃ ❖ *Waktu:* %time WITA
 ┃
 ┃ ❖ *Uptime:* _%uptime_ (%muptime)
 ┃ ❖ *Database:* %rtotalreg of %totalreg
 ┃ ❖ *Contact:*
-┃     _https://bit.ly/Kokoronationz_
+┃     [62887436568613]
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 %readmore
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -64,6 +64,7 @@ const defaultMenu = {
 ┃ ❖ DrawlNag
 ┃ ❖ Ariffb
 ┃ ❖ RC047
+┃ ❖ Kokoronationz
 ┃ ❖ Dan Kawan-kawan
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
@@ -78,8 +79,8 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let kuriyama = './src/photo/kuriyama.png'
-    let kokoronationz = 'https://bit.ly/Kokoronationz'
+    let violet = './src/photo/VioGarden.png'
+    let unx21 = 'https://github.com/unx21'
     //let premium = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     let tnbot = (await conn.getFile(await conn.getProfilePicture(m.fromMe))).data.toString('base64')
     let { name, uang, exp, limit, level } = global.DATABASE.data.users[m.sender]
@@ -176,7 +177,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     //conn.reply(m.chat, text.trim(), m)
-    await conn.reply(m.chat, /*kuriyama, 'kuriyama.jpg',*/ text.trim(), { 
+    await conn.reply(m.chat, /*VioGarden, 'Violet Evergarden.png',*/ text.trim(), { 
       key: { 
         remoteJid: 'status@broadcast', 
         participant: '0@s.whatsapp.net', 
