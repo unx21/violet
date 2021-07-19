@@ -5,13 +5,13 @@ let cdm = `${MeNit(new Date - LastGift)}`
 let cds = `${DeTik(new Date - LastGift)}`
 let cd1 = Math.ceil(59 - cdm)
 let cd2 = Math.ceil(60 - cds)
-let data = fs.readFileSync('/data/data/com.termux/files/home/unx21/lib/gift.js')
+let data = fs.readFileSync('/data/data/com.termux/files/home/violet/lib/gift.js')
 let parse = JSON.parse(data)
 let random = Math.floor(Math.random() * parse.length);
 let json = parse[random]
   if (new Date - global.DATABASE._data.users[m.sender].lastgift > 3600000) {
     global.DATABASE._data.users[m.sender].uang += json.uang * 1
-    global.DATABASE._data.users[m.sender].exp += 100
+    global.DATABASE._data.users[m.sender].exp += 500
     m.reply(`Selamat anda mendapatkan +Rp${json.uang}`)
     global.DATABASE._data.users[m.sender].lastgift = new Date * 1
   } else m.reply(`Silahkan Menunggu *${cd1}* Menit *${cd2}* Detik Lagi!`)
