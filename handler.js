@@ -28,7 +28,7 @@ module.exports = {
         if (user) {
           if (!isNumber(user.exp)) user.exp = 0
           if (!isNumber(user.uang)) user.uang = 0
-          if (!isNumber(user.limit)) user.limit = 10
+          if (!isNumber(user.limit)) user.limit = 7
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
           if (!isNumber(user.lastmining)) user.lastmining = 0
           if (!isNumber(user.lastgift)) user.lastgift = 0
@@ -384,7 +384,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama|umur*\n\nContoh: *#daftar Kuriyama|13*`
+    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama|umur*\n\nContoh: *#daftar Violet|13*`
   }[type]
   if (msg) return m.reply(msg)
 }
