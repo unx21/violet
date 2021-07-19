@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p  }) => {
   conn.reply(m.chat, `
-Syarat dan Ketentuan dalam menggunakan *VIOLET*
+Syarat dan Ketentuan dalam menggunakan *Violet-Bot*
 
 1. Teks dan nama pengguna WhatsApp anda akan Kami simpan di dalam server selama bot aktif
 2. Data akan di hapus ketika bot Offline
