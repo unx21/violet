@@ -1,25 +1,14 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => {
-  await m.reply(global.wait)
- let res = await fetch('https://ardhixsquerpants.herokuapp.com/api/waifu')
- let { desc, image, name, source } = await res.json()
- let hasil = `*NAME :* ${name}\n*DESC :* ${desc}\n*URL :* ${source}`
- conn.sendFile(m.chat, image, 'image.png', hasil, m)
+let handler = async(m, { conn }) => {
+  let res = await fetch('https://api.waifu.pics/sfw/waifu')
+  if (!res.ok) throw await res.text()
+  let json = await res.json()
+  if (!json.url) throw 'Error!'
+  conn.sendFile(m.chat, json.url, '', 'Huuu istrinya kartun', m)
 }
 handler.help = ['waifu']
-handler.tags = ['weebs']
-handler.command = /^waifu$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.register = true
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
+handler.tags = ['internet']
+handler.command = /^(waifu)$/i
 handler.limit = 3
-
+//MADE IN ERPAN 1140 BERKOLABORASI DENGAN BTS
 module.exports = handler
