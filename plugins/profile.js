@@ -24,6 +24,7 @@ let handler = async (m, { conn, isPrems }) => {
 *Level:* ${level}
 *Limit:* ${limit}
 *Premium:* ${premium ? 'YES':'NO'}
+*Player:* ${player ? 'YES':'NO'}
 *Registered:* ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\n*Last Claim:* ' + new Date(lastclaim) : ''}
 *SN:* ${sn}
 `.trim()
