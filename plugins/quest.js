@@ -14,6 +14,7 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 ║ ❖  Posisi II = Extra Saldo 20 M
 ║ ❖  Posisi III = Extra Saldo 15 M
 ║ ❖  Posisi IV = Extra Saldo 10 M
+║ ❖  Posisi V = Extra Saldo 5 M
 ║
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ┇                    *「 RULES 」*
@@ -23,6 +24,7 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 ║ ❖  Untuk Mengikuti Quest Harap Mendaftar
 ║ ❖  Admin Akan Memberikan Pegangan Sebesar 1 M
 ║ ❖  Dilarang Meminta Saldo Dari Pemain Lain
+║ ❖  Dilarang Mengklaim Prize Diluar Waktu Quest
 ║
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ┇                    *「 TIME 」*
@@ -36,7 +38,7 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 `.trim(), m)
 }
 handler.help = ['quest']
-handler.tags = ['quest']
+handler.tags = ['player']
 handler.command = /^(quest)$/i
 handler.owner = false
 handler.mods = false
