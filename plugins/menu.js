@@ -24,6 +24,7 @@ let tags = {
   'tools': 'Tools',
   'jadibot': 'Jadi Bot',
   'premium': 'Premium Menu',
+  'player': 'Player'
   'owner': 'Owner',
   'host': 'Host',
   'database': 'Database',
@@ -177,7 +178,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     //conn.reply(m.chat, text.trim(), m)
-    await conn.reply(m.chat, /*VioGarden, 'Violet Evergarden.png',*/ text.trim(), { 
+    await conn.sendFile(m.chat, violet, 'Violet Evergarden.png', text.trim(), { 
       key: { 
         remoteJid: 'status@broadcast', 
         participant: '0@s.whatsapp.net', 
@@ -190,7 +191,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
           "jpegThumbnail": tnbot
         } 
       }
-    }, { 
+    }, m, { 
       //thumbnail: tnbot, 
       contextInfo: { 
         mentionedJid: [m.sender]} } )
