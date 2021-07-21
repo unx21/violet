@@ -14,7 +14,7 @@ let cd3 = Math.ceil(60 - cds)
   } else throw `Anda sudah mengklaim prize.\n\nTunggu ${cd1} Jam ${cd2} Menit ${cd3} Detik!`
 }
 handler.help = ['prize']
-handler.tags = ['quest']
+handler.tags = ['player']
 handler.command = /^(prize)$/i
 handler.owner = false
 handler.mods = false
