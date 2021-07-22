@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['slow']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(slow)$/i
 handler.register = true
 handler.limit = true
