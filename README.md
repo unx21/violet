@@ -103,3 +103,6 @@ conn.logger.level = 'debug'
 
 #### Author / Creator : 
 <a href="https://github.com/Nurutomo/wabot-aq"><img alt="GitHub" src="https://img.shields.io/badge/NURUTOMO%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
+#### Master : 
+<a href="https://github.com/unx21/violet"><img alt="GitHub" src="https://img.shields.io/badge/UNX%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
