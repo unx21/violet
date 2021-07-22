@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['deep']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(deep)$/i
 handler.register = true
 handler.limit = true
