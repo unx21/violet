@@ -8,6 +8,6 @@ type: 'stickerMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /(onegai)|(arigato(o|u))|(makas(e|i)h)|(thank(s))/
+handler.customPrefix = /onegai|arigatou|makasih|thanks/
 handler.command = new RegExp
 module.exports = handler
