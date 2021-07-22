@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['robot']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(robot)$/i
 handler.register = true
 handler.limit = true
