@@ -1,8 +1,8 @@
-# Violet
+# Violet-Bot
 ![Violet Evergarden](https://user-images.githubusercontent.com/84166927/126068743-ff713e80-ebb3-4aa1-9888-5b5d67b78799.png)
 
 
-### Violet Here, Need Some Help?
+### Only For WhatsApp Group Chat
 
 Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 
@@ -42,7 +42,7 @@ Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 ## Run
 
 ```bash
-> node . [<session name>] (session name is optional)
+> node violet
 ```
 
 ---------
