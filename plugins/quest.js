@@ -38,7 +38,7 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 `.trim(), m)
 }
 handler.help = ['quest']
-handler.tags = ['player']
+handler.tags = ['Player']
 handler.command = /^(quest)$/i
 handler.owner = false
 handler.mods = false
