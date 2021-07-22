@@ -58,7 +58,7 @@ handler.tags = ['game']
 handler.command = /^(slot)$/i
 handler.group = true
 handler.register = true
-handler.owner = true
+handler.owner = false
 
 handler.exp = 10
 handler.limit = true
