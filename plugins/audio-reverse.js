@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['reverse']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(reverse)$/i
 handler.register = true
 handler.limit = true
