@@ -19,6 +19,7 @@ let tags = {
   'videomaker': 'Videomaker',
   'internet': 'Internet',
   'downloader': 'Downloader',
+  'audio': 'Audio'
   'admin': 'Admin',
   'group': 'Group',
   'tools': 'Tools',
