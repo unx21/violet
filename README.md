@@ -42,7 +42,7 @@ Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 ## Run
 
 ```bash
-> node violet
+> node . [<session name>] (session name is optional)
 ```
 
 ---------
