@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['bass']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(bass)$/i
 handler.register = true
 handler.limit = true
