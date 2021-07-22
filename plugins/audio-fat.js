@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['fat']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.command = /^(fat)$/i
 handler.register = true
 handler.limit = true
