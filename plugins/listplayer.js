@@ -11,7 +11,7 @@ let handler = async (m, { conn, text }) => {
 conn.sendMessage(m.chat, `*「 List Player 」*` + `\n\n` + player.map(v => '❖ @' + v.replace(/@.+/, '')).join`\n`, MessageType.extendedText, { contextInfo: { mentionedJid: player } })
 }
 handler.help = ['listplayer']
-handler.tags = ['player']
+handler.tags = ['Player']
 handler.command = /^(listplayer)$/i
 handler.owner = false
 handler.group = true
