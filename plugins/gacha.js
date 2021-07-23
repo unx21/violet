@@ -1,3 +1,4 @@
+let fs = require('fs')
 let handler = async (m, { conn }) => {
   let LastGacha = global.DATABASE._data.users[m.sender].lastclaim
 let cdj = `${JaM(new Date - LastGacha)}`
