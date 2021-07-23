@@ -33,6 +33,7 @@ module.exports = {
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
           if (!isNumber(user.lastmining)) user.lastmining = 0
           if (!isNumber(user.lastgift)) user.lastgift = 0
+          if (!isNumber(user.lastgacha)) user.lastgacha = 0
           if (!('registered' in user)) user.registered = false
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
@@ -52,6 +53,7 @@ module.exports = {
           lastclaim: 0,
           lastgift: 0,
           lastmining: 0,
+          lastgacha: 0,
           registered: false,
           name: this.getName(m.sender),
           age: -1,
