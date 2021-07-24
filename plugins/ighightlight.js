@@ -17,6 +17,8 @@ await m.reply(global.wait)
 }
 handler.help = ['ighighlight'].map(v => v + ' <username>')
 handler.tags = ['downloader']
+handler.premium = true
+handler.register = true
 
 handler.command = /^(ighighlight?)$/i
 
