@@ -4,7 +4,7 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 ┇                       *「 QUEST 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ║
-║ ❖  Kumpulkan Saldo Senilai 50 M
+║ ❖  Kumpulkan Saldo Senilai 1 B
 ║
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ┇                      *「 HADIAH 」*
@@ -20,11 +20,12 @@ let handler  = async (m, { conn, usedPrefix: _p  }) => {
 ┇                    *「 RULES 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ║
-║ ❖  Quest Dibuka Setiap Hari Rabu dan Sabtu
+║ ❖  Quest Dibuka Setiap Hari Rabu Hingga Sabtu
 ║ ❖  Untuk Mengikuti Quest Harap Mendaftar
 ║ ❖  Admin Akan Memberikan Pegangan Sebesar 1 M
 ║ ❖  Dilarang Meminta Saldo Dari Pemain Lain
 ║ ❖  Dilarang Mengklaim Prize Diluar Waktu Quest
+║ ❖  Dilarang Melakukan Gacha Diluar Waktu Quest
 ║
 ┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━
 ┇                    *「 TIME 」*
