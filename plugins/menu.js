@@ -54,8 +54,8 @@ const defaultMenu = {
 ┃
 ┃ ❖ *Uptime:* _%uptime_ (%muptime)
 ┃ ❖ *Database:* %rtotalreg of %totalreg
-┃ ❖ *About Me :*
-┃  _*https://bit.ly/unxzx_*
+┃ ❖ *About Me:*
+┃  _*https://bit.ly/unxzx*_
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 %readmore
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
