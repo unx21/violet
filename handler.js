@@ -33,7 +33,6 @@ module.exports = {
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
           if (!isNumber(user.lastmining)) user.lastmining = 0
           if (!isNumber(user.lastgift)) user.lastgift = 0
-          if (!isNumber(user.lastgacha)) user.lastgacha = 0
           if (!('registered' in user)) user.registered = false
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
@@ -53,7 +52,6 @@ module.exports = {
           lastclaim: 0,
           lastgift: 0,
           lastmining: 0,
-          lastgacha: 0,
           registered: false,
           name: this.getName(m.sender),
           age: -1,
@@ -120,7 +118,6 @@ module.exports = {
       let isOwner = isROwner || m.fromMe
       let isMods = isOwner || global.mods.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       let isPrems = isROwner || global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-      let isPlayer = isROwner || global.player.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       let groupMetadata = m.isGroup ? this.chats.get(m.chat).metadata || await this.groupMetadata(m.chat) : {} || {}
       let participants = m.isGroup ? groupMetadata.participants : [] || []
       let user = m.isGroup ? participants.find(u => u.jid == m.sender) : {} // User Data
@@ -159,7 +156,6 @@ module.exports = {
           isAdmin,
           isBotAdmin,
           isPrems,
-          isPlayer,
           chatUpdate,
         })) continue
         if (typeof plugin !== 'function') continue
@@ -210,10 +206,6 @@ module.exports = {
             fail('premium', m, this)
             continue
           }
-          if (plugin.player && !isPlayer) { // Player
-            fail('player', m, this)
-            continue
-          }
           if (plugin.group && !m.isGroup) { // Group Only
             fail('group', m, this)
             continue
@@ -259,7 +251,6 @@ module.exports = {
             isAdmin,
             isBotAdmin,
             isPrems,
-            isPlayer,
             chatUpdate,
           }
           try {
@@ -390,7 +381,6 @@ global.dfail = (type, m, conn, usedPrefix) => {
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    player: 'Perintah ini hanya untuk para  _*Player*_ !',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
