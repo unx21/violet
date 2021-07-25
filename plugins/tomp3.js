@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   })
 }
 handler.help = ['tomp3 (reply)']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.register = true
 handler.limit = true
 
