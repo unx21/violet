@@ -16,7 +16,7 @@ try {
   let url = await uploadImage(img).catch(e => uploadFile(img))
   let meme = global.API('https://api.memegen.link', `/images/custom/${encodeURIComponent(text1)}/${encodeURIComponent(text2)}.png`, {
     background: url })
-  conn.sendFile(m.chat, meme, 'meme.jpg', '©Kuriyama-bot', m)
+  conn.sendFile(m.chat, meme, 'meme.jpg', '©Violet', m)
 } catch (e) {
   m.reply('Conversion Failed')
   }
