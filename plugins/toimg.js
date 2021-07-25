@@ -3,6 +3,7 @@ const util = require('util')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn }) => {
+await m.reply(global.wait)
   if (!global.support.convert &&
       !global.support.magick &&
       !global.support.gm) return handler.disabled = true // Disable if doesnt support
@@ -42,4 +43,3 @@ handler.fail = null
 handler.limit = true
 
 module.exports = handler
-
