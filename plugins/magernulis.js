@@ -4,6 +4,7 @@ let { spawn } = require('child_process')
 
 // Magernulis By MFarelS:V
 let handler  = async (m, { conn, text }) => {
+await m.reply(global.wait)
   let d = new Date
   let tgl = d.toLocaleDateString('id-Id')
   let hari = d.toLocaleDateString('id-Id', { weekday: 'long' })
