@@ -26,7 +26,7 @@ ${list}
 Ini dibuat oleh _ Ariffb_`, m, { contextInfo: { mentionedJid: absen } })
 }
 handler.help = ['cekabsen']
-handler.tags = ['Absen']
+handler.tags = ['absen']
 handler.command = /^cekabsen$/i
 handler.group = true
 handler.register = true
