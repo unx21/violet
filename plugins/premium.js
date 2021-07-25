@@ -2,17 +2,22 @@ let handler = async m => m.reply(`
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇       *「 PREMIUM 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┃
+┃ ❖ Limit Tak Terbatas
+┃ ❖ Semua Fitur Terbuka
+┃ ❖ Undang Bot Ke Group
+┃
 ┃ Mau Jadi Premium?
 ┃ 
 ┃ Harga Premium
-┃ 5k/Bulan
+┃ ❖ 5k/Bulan
 ┃
 ┃ Invite Bot Ke Group 
-┃ 15k/Bulan
+┃ ❖ 15k/Bulan
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ Pembayaran Anda Akan Saya
-┃ Kembalikan Dalam Bentuk Pulsa
-┃ Apabila Bot Telah Berhenti Secara Permanent
+┃ 
+┃ Owner Akan Mengembalikan Sisa Premium
+┃ Via Pulsa Apabila Bot Telah Berhenti Permanent
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ Silahkan Hubungi Owner
 ┃ Untuk Menjadi Premium User
