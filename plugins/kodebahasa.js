@@ -58,5 +58,6 @@ let handler = async m => m.reply(`
 handler.help = ['kodebahasa']
 handler.tags = ['tools']
 handler.command = /^kodebahasa$/i
+handler.register = true
 
 module.exports = handler
