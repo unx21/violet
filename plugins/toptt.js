@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   })
 }
 handler.help = ['tovn (reply)']
-handler.tags = ['audio']
+handler.tags = ['Audio']
 handler.register = true
 handler.limit = true
 
