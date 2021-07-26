@@ -1,35 +1,25 @@
-const axios = require('axios')
+// Pngocok handal
 
-let handler = async(m, { conn, text, usedPrefix }) => {
-
-    if (!text) return conn.reply(m.chat, '_Masukkan yang dicari_', m)
-    await m.reply(global.wait)
-    new Promise((resolve, reject) => {
-        axios.get(`https://docs-jojo.herokuapp.com/api/lirik?q=` + encodeURIComponent(text))
-            .then((res) => {
-
-                const caption = `*• Lirik Lagu ${text} :*\n\n${res.data.result}`
-                conn.reply(m.chat, caption, m)
-            })
-            .catch((err) => {
-                reject(err)
-            })
-    })
+let fetch = require('node-fetch')
+let handler = async (m, { text }) => {
+await m.reply(global.wait)
+  let res = await fetch(global.API('https://some-random-api.ml', '/lyrics', {
+    title: text
+  }))
+  if (!res.ok) throw await res.text()
+  let json = await res.json()
+  if (!json.thumbnail.genius) throw json
+  conn.sendFile(m.chat, json.thumbnail.genius, '', `
+*${json.title}*
+_${json.author}_\n
+${json.lyrics}\n\n
+${json.links.genius}
+`, m)
 }
-handler.help = ['lirik <judul lagu>']
+handler.help = ['lirik'].map(v => v + ' <Apa>')
 handler.tags = ['internet']
-handler.command = /^(lirik)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
+handler.command = /^(lirik|lyrics|lyric)$/i
 handler.register = true
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
 handler.limit = true
 
 module.exports = handler
