@@ -1,4 +1,4 @@
-global.owner = ['62887436568613'] // Put your number here
+global.owner = ['62887436568613','6289524339740'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = ['62887436568613'] // Premium user has unlimited limit
 global.wait = "[❗]  ```Wait a minute...```"
@@ -13,8 +13,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Here'
-global.author = 'Violet'
+global.packname = 'Violet-bot'
+global.author = '@Unx'
 
 global.multiplier = 69 // The higher, The harder levelup
 
