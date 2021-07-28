@@ -53,8 +53,8 @@ const defaultMenu = {
 ┃
 ┃ ❖ *Uptime:* _%uptime_ (%muptime)
 ┃ ❖ *Database:* %rtotalreg of %totalreg
-┃ ❖ *Contact:*
-┃     _https://bit.ly/unxzx_
+┃ ❖ *Owner:*
+┃      _https://bit.ly/unxzx_
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 %readmore
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -66,6 +66,7 @@ const defaultMenu = {
 ┃ ❖ Ariffb
 ┃ ❖ RC047
 ┃ ❖ Kokoronationz
+┃ ❖ Megane
 ┃ ❖ Dan Kawan-kawan
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
@@ -178,7 +179,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     //conn.reply(m.chat, text.trim(), m)
-    await conn.reply(m.chat, /*violet, 'Violet Evergarden.jpg',*/ text.trim(), { 
+    await conn.sendFile(m.chat, violet, 'VioGarden.png', text.trim(), { 
       key: { 
         remoteJid: 'status@broadcast', 
         participant: '0@s.whatsapp.net', 
@@ -191,7 +192,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
           "jpegThumbnail": tnbot
         } 
       }
-    }, /*m,*/ { 
+    }, m, { 
       //thumbnail: tnbot, 
       contextInfo: { 
         mentionedJid: [m.sender]} } )
@@ -208,7 +209,7 @@ handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
-handler.register = true
+handler.register = false
 
 handler.admin = false
 handler.botAdmin = false
