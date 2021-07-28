@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     }
 }
 handler.help = ['tupai']
-handler.tags = ['Audio']
+handler.tags = ['audio']
 handler.command = /^(tupai|squirrel|chipmunk)$/i
 handler.register = true
 handler.limit = true
