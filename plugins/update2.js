@@ -51,6 +51,7 @@ handler.rowner = true
 handler.help = ['update2']
 handler.tags = ['host']
 handler.command = ['update2']
+handler.private = false
 
 handler.rowner = true
 
