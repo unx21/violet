@@ -4,12 +4,12 @@ let handler = async (m, { conn, text }) => {
     if (!text) throw 'Masukkan Uang Yang Akan Anda Slot'
     if (!num.test(text)) throw 'Hanya Angka'
     let uang = `${text}`
-    let jackpot = Math.ceil(uang * 10)
-    let win = Math.ceil(uang * 2)
+    let jackpot = Math.ceil(uang * 5)
+    let win = Math.ceil(uang * 1)
     if (uang < 1000) throw 'Minimal 1000'
     let users = global.DATABASE._data.users
     if (uang > users[m.sender].uang) throw 'Uang Anda Tidak Cukup'
-    let emojis = ["🍏","🍎","🍊","🍋","🍑","🪙","🍅","🍐"];
+    let emojis = ["🍏","🍎","🍊","🍋","🍑","🪙","🍅","🍐","🍒","🥥","🍌"];
     let a = Math.floor(Math.random() * emojis.length);
     let b = Math.floor(Math.random() * emojis.length);
     let c = Math.floor(Math.random() * emojis.length);
