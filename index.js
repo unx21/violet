@@ -4,15 +4,15 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Lightweight\nUnx Loyal Couple', {
+CFonts.say('Lightweight\nU n x  Loyal Couple', {
   font: 'chrome',
   align: 'center',
-  gradient: ['cyan', 'magenta']
+  gradient: ['purple', 'magenta']
 })
 CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
   font: 'console',
   align: 'center',
-  gradient: ['cyan', 'magenta']
+  gradient: ['purple', 'magenta']
 })
 
 var isRunning = false
@@ -27,7 +27,7 @@ function start(file) {
   CFonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
-    gradient: ['cyan', 'magenta']
+    gradient: ['purple', 'magenta']
   })
   let p = spawn(process.argv[0], args, {
     stdio: ['inherit', 'inherit', 'inherit', 'ipc']
