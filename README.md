@@ -20,7 +20,6 @@ Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 > git clone https://github.com/unx21/violet
 > cd violet
 > npm install
-> npm update
 ```
 
 ---------
@@ -36,7 +35,6 @@ Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 > git clone https://github.com/unx21/violet
 > cd violet
 > npm install
-> npm update
 ```
 
 ---------
@@ -44,7 +42,7 @@ Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 ## Run
 
 ```bash
-> node . [<session name>] (session name is optional)
+> node violet
 ```
 
 ---------
