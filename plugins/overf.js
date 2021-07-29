@@ -18,8 +18,8 @@ handler.help = ['overf']
 handler.tags = ['weebs','premium']
 handler.command = /^overf$/i
 handler.register = true
-handler.group = true
-handler.private = false
+handler.group = false
+handler.private = true
 handler.premium = true
 handler.limit = false
 
