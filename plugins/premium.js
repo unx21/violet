@@ -6,6 +6,7 @@ let handler = async m => m.reply(`
 ┃ ❖ Limit Tak Terbatas
 ┃ ❖ Semua Fitur Terbuka
 ┃ ❖ Undang Bot Ke Group
+┃ ❖ Personal Chat Bot
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ Mau Jadi Premium?
 ┃ 
