@@ -7,6 +7,7 @@ let tags = {
   'sticker': 'Sticker',
   'weebs': 'Weebs',
   'expression': 'Expression',
+  'randimg': 'Random Image',
   'game': 'Game',
   'fun': 'Fun',
   'anonymous': 'Anonymous Chat',
