@@ -15,7 +15,7 @@ let handler = async (m, { conn }) => {
     }
 }
 handler.help = ['blush']
-handler.tags = ['ranimg']
+handler.tags = ['randimg']
 handler.command = /^blush$/i
 handler.premium = false
 handler.register = true
