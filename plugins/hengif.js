@@ -19,5 +19,6 @@ handler.tags = ['weebs','premium']
 handler.command = /^hentaigif$/i
 handler.premium = true
 handler.register = true
+handler.private = true
 
 module.exports = handler
