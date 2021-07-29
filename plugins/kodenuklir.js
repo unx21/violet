@@ -499,8 +499,8 @@ handler.command = /^(kodenuklir)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = true
-handler.group = true
-handler.private = false
+handler.group =false
+handler.private = true
 handler.register = true
 
 handler.admin = false
