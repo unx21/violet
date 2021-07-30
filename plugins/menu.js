@@ -74,7 +74,7 @@ const defaultMenu = {
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
   header: '┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n┇       *「 %category 」*\n┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━',
-  body: '┃ ❖  %cmd %islimit %isPremium',
+  body: '┃ •  %cmd %islimit %isPremium',
   footer: '┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n',
   after: `
 *%npmname@^%version*
