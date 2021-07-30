@@ -39,21 +39,21 @@ const defaultMenu = {
 ┇       *「 %me 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃
-┃ • Hai %name!
+┃ ¤ Hai %name!
 ┃
-┃ • *Name:* %name
-┃ • *Level:* %level (%exp / %maxexp)
-┃ • *EXP:* %totalexp XP
-┃ • *Saldo:* Rp%saldo
-┃ • *Limit:* %limit
+┃ ❖ *Name:* %name
+┃ ❖ *Level:* %level (%exp / %maxexp)
+┃ ❖ *EXP:* %totalexp XP
+┃ ❖ *Saldo:* Rp%saldo
+┃ ❖ *Limit:* %limit
 ┃
-┃ • *Hari:* %week %weton
-┃ • *Tanggal:* %date
-┃ • *Tanggal Islam:* %dateIslamic
-┃ • *Waktu:* %time WITA
+┃ ❖ *Hari:* %week %weton
+┃ ❖ *Tanggal:* %date
+┃ ❖ *Tanggal Islam:* %dateIslamic
+┃ ❖ *Waktu:* %time WITA
 ┃
-┃ • *Uptime:* _%uptime_ (%muptime)
-┃ • *Database:* %rtotalreg of %totalreg
+┃ ❖ *Uptime:* _%uptime_ (%muptime)
+┃ ❖ *Database:* %rtotalreg of %totalreg
 ┃ • *Owner:*
 ┃      _https://bit.ly/unxzx_
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -74,7 +74,7 @@ const defaultMenu = {
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
   header: '┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n┇       *「 %category 」*\n┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━',
-  body: '┃ •  %cmd %islimit %isPremium',
+  body: '┃ ->  %cmd %islimit %isPremium',
   footer: '┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n',
   after: `
 *%npmname@^%version*
