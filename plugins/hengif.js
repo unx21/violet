@@ -15,7 +15,7 @@ let handler = async (m, { conn }) => {
     }
 }
 handler.help = ['hengif']
-handler.tags = ['weebs','premium']
+handler.tags = ['randimg','premium']
 handler.command = /^hentaigif$/i
 handler.premium = true
 handler.register = true
