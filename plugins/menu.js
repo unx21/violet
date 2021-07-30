@@ -39,36 +39,38 @@ const defaultMenu = {
 ┇       *「 %me 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃
-┃ ❖ Hai %name!
+┃ • Hai %name!
 ┃
-┃ ❖ *Name:* %name
-┃ ❖ *Level:* %level (%exp / %maxexp)
-┃ ❖ *EXP:* %totalexp XP
-┃ ❖ *Saldo:* Rp%saldo
-┃ ❖ *Limit:* %limit
+┃ • *Name:* %name
+┃ • *Level:* %level (%exp / %maxexp)
+┃ • *EXP:* %totalexp XP
+┃ • *Saldo:* Rp%saldo
+┃ • *Limit:* %limit
 ┃
-┃ ❖ *Hari:* %week %weton
-┃ ❖ *Tanggal:* %date
-┃ ❖ *Tanggal Islam:* %dateIslamic
-┃ ❖ *Waktu:* %time WITA
+┃ • *Hari:* %week %weton
+┃ • *Tanggal:* %date
+┃ • *Tanggal Islam:* %dateIslamic
+┃ • *Waktu:* %time WITA
 ┃
-┃ ❖ *Uptime:* _%uptime_ (%muptime)
-┃ ❖ *Database:* %rtotalreg of %totalreg
-┃ ❖ *Owner:*
+┃ • *Uptime:* _%uptime_ (%muptime)
+┃ • *Database:* %rtotalreg of %totalreg
+┃ • *Owner:*
 ┃      _https://bit.ly/unxzx_
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 %readmore
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇       *「 Thanks to 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ❖ Nurutomo
-┃ ❖ St4rz
-┃ ❖ DrawlNag
-┃ ❖ Ariffb
-┃ ❖ RC047
-┃ ❖ Kokoronationz
-┃ ❖ Megane
-┃ ❖ Dan Kawan-kawan
+┃ • Nurutomo
+┃ • St4rz
+┃ • DrawlNag
+┃ • Ariffb
+┃ • RC047
+┃ • Kokoronationz
+┃ • Jauhari
+┃ • Syahrul
+┃ • Hanif Uchiha
+┃ • Dan Kawan-kawan
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trimStart(),
   header: '┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n┇       *「 %category 」*\n┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━',
