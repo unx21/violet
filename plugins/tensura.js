@@ -2,17 +2,9 @@ let handler = async m => m.reply(`
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇          *「 About Tensura 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇ *「 Tensura Season I 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ~ https://gomunime.online/anime/tensei-shitara-slime-datta-ken-sub-indo/
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇ *「 Tensura OVA 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ ~ https://gomunime.online/anime/tensei-shitara-slime-datta-ken-ova/
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇ *「 Tensura Season II 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ~ https://gomunime.online/anime/tensei-shitara-slime-datta-ken-2nd-season/
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇ *「 Tensura Nikki 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -51,7 +43,17 @@ let handler = async m => m.reply(`
 ┃ ~ https://novelringan.com/series/tensei-shitara-slime-datta-ken-wn/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 
-`.trim()) // Tambah sendiri kalo mau
+`.trim())
+await conn.reply(m.chat, caption,/* { 
+  key: { 
+    remoteJid: 'status@broadcast', 
+    participant: '0@s.whatsapp.net', 
+    fromMe: false 
+  }, message: { 
+    "imageMessage": { 
+      "mimetype": "image/jpeg", 
+      "caption": `${conn.user.name} Verified Bot`, 
+      "jpegThumbnail": tnbot} } }, { contextInfo: { mentionedJid: [m.sender] } }*/m)
 handler.help = ['tensura']
 handler.tags = ['weebs']
 handler.command = /^tensura$/i
