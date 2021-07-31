@@ -1,5 +1,5 @@
-//by BochilGaming
-//https://github.com/BochilGaming/
+//by unx
+//https://github.com/unx21/
 
 let handler = m => m
 handler.before = async function (m) {
