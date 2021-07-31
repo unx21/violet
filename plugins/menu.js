@@ -35,11 +35,11 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 %me 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┏━━━ *「 %me 」*
+┇
+┣ ┅ ━━━━━
 ┃
-┃ ¤ Hai %name!
+┃ ~> Hai %name!
 ┃
 ┃ ❖ *Name:* %name
 ┃ ❖ *Level:* %level (%exp / %maxexp)
@@ -56,11 +56,12 @@ const defaultMenu = {
 ┃ ❖ *Database:* %rtotalreg of %totalreg
 ┃ ❖ *Owner:*
 ┃      _https://bit.ly/unxzx_
-┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┗ ┅ ━━━━━━━━━━
 %readmore
-┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 Thanks to 」*
-┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┏━━━ *「 Thanks To 」*
+┇
+┣ ┅ ━━━━━
+┃
 ┃ • Nurutomo
 ┃ • St4rz
 ┃ • DrawlNag
@@ -70,12 +71,11 @@ const defaultMenu = {
 ┃ • Jauhari
 ┃ • Syahrul
 ┃ • Hanif Uchiha
-┃ • Dan Kawan-kawan
-┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
+┗ ┅ ━━━━━━━━━━
 `.trimStart(),
-  header: '┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n┇       *「 %category 」*\n┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━',
-  body: '┃ ->  %cmd %islimit %isPremium',
-  footer: '┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━\n',
+  header: '┏━━━\n┇       *「 %category 」*\n┣ ┅ ━━━━━',
+  body: '┃ ━>  %cmd %islimit %isPremium',
+  footer: '┗ ┅ ━━━━━━━━━━\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
