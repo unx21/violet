@@ -1,6 +1,7 @@
 const { MessageType } = require('@adiwajshing/baileys')
 const { sticker } = require('../lib/sticker')
 let handler = async (m, { conn, text }) => {
+await m.reply(global.wait)
   let stiker = false
   try {
     let [packname, ...author] = text.split('|')
@@ -20,6 +21,7 @@ handler.help = ['wm <packname>|<author>']
 handler.tags = ['sticker']
 handler.command = /^wm$/i
 handler.register = true
-handler.limit = true
+handler.limit = false
+handler.premium = true
 
 module.exports = handler
