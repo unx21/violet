@@ -12,7 +12,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
         conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.caklontong[id][0])
         throw false
     }
-    let res = await fetch('https://zahirr-web.herokuapp.com/api/kuis/caklontong?apikey=zahirgans')
+    let res = await fetch('http://94.130.142.91:25621/caklontong')
     let json = await res.json()
     let caption = `
 *「 Cak Lontong 」*
