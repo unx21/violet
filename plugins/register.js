@@ -30,7 +30,8 @@ let handler = async function (m, { text, usedPrefix }) {
 ┃ ${sn}
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━━ ┅ ━
 
- _Simpan Serial Number anda!_
+ _Simpan Serial Number Anda!_
+ _Jangan Lupa Untuk Claim Dan Mining_
 `.trim()
 await conn.reply(m.chat, caption,/* { 
   key: { 
