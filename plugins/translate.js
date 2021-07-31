@@ -4,6 +4,7 @@ const defaultLang = 'en'
 const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
+await m.reply(global.wait)
     let err = `
 Contoh:
 ${usedPrefix + command} <lang> [text]
@@ -45,6 +46,7 @@ handler.premium = false
 handler.group = false
 handler.private = false
 handler.register = true
+handler.limit = true
 
 handler.admin = false
 handler.botAdmin = false
