@@ -21,5 +21,6 @@ handler.help = ['slap']
 handler.tags = ['expression']
 handler.command = /^slap/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
