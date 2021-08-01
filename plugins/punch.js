@@ -21,5 +21,6 @@ handler.help = ['punch']
 handler.tags = ['expression']
 handler.command = /^punch/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
