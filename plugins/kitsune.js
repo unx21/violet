@@ -21,5 +21,6 @@ handler.help = ['kitsune']
 handler.tags = ['expression']
 handler.command = /^kitsune/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
