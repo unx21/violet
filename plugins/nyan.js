@@ -21,5 +21,6 @@ handler.help = ['nyan']
 handler.tags = ['expression']
 handler.command = /^nyan/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
