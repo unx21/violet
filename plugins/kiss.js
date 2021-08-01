@@ -21,5 +21,6 @@ handler.help = ['kiss']
 handler.tags = ['expression']
 handler.command = /^kiss/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
