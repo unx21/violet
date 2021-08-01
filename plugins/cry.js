@@ -21,5 +21,6 @@ handler.help = ['cry']
 handler.tags = ['expression']
 handler.command = /^cry/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
