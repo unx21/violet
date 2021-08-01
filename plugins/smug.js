@@ -21,5 +21,6 @@ handler.help = ['smug']
 handler.tags = ['expression']
 handler.command = /^smug/i
 handler.register = true
+handler.limit = true
 
 module.exports = handler
