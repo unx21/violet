@@ -61,19 +61,19 @@ const defaultMenu = {
 ┏━━━ *「 Thanks To 」*
 ┣ ┅ ━━━━━
 ┃
-┃ • Nurutomo
-┃ • St4rz
-┃ • DrawlNag
+┃ ⊱ Nurutomo
+┃ ⊱ St4rz
+┃ ⊱ DrawlNag
 ┃ • Ariffb
 ┃ • RC047
 ┃ • Kokoronationz
-┃ • Jauhari
-┃ • Syahrul
-┃ • Hanif Uchiha
+┃ > Jauhari
+┃ > Syahrul
+┃ > Hanif Uchiha
 ┗ ┅ ━━━━━━━━━━
 `.trimStart(),
   header: '┏━━━ *「 %category 」*\n┣ ┅ ━━━━━',
-  body: '┃ ━>  %cmd %islimit %isPremium',
+  body: '┃ ➥  %cmd %islimit %isPremium',
   footer: '┗ ┅ ━━━━━━━━━━\n',
   after: `
 *%npmname@^%version*
