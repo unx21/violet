@@ -43,17 +43,6 @@ let handler = async m => m.reply(`
 ┃ ~ https://novelringan.com/series/tensei-shitara-slime-datta-ken-wn/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 
-`.trim())
-await conn.reply(m.chat, caption,/* { 
-  key: { 
-    remoteJid: 'status@broadcast', 
-    participant: '0@s.whatsapp.net', 
-    fromMe: false 
-  }, message: { 
-    "imageMessage": { 
-      "mimetype": "image/jpeg", 
-      "caption": `${conn.user.name} Verified Bot`, 
-      "jpegThumbnail": tnbot} } }, { contextInfo: { mentionedJid: [m.sender] } }*/m)
 handler.help = ['tensura']
 handler.tags = ['weebs']
 handler.command = /^tensura$/i
