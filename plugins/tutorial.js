@@ -12,14 +12,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ┃
 ┇       Untuk Githubnya
 ┃
-┃ ❖ git clone https://unx21/violet
+┃ ❖ git clone https://github.com/unx21/violet
 ┃ ❖ ls
 ┃ ❖ cd ciolet
 ┃
 ┇  Terakhir Penginstalannya Cuy
 ┃
 ┃ ❖ npm i
-┃ ❖ node . [ session name is optional ]
+┃ ❖ node violet
 ┃
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trim(), m)
