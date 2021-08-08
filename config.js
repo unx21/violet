@@ -13,8 +13,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Violet-bot'
-global.author = '@Unx'
+global.packname = 'Heree'
+global.author = 'Violet-bot'
 
 global.multiplier = 69 // The higher, The harder levelup
 
