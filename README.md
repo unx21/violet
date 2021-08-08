@@ -1,8 +1,11 @@
 # Violet-Bot
-![Violet Evergarden](https://user-images.githubusercontent.com/84166927/126068743-ff713e80-ebb3-4aa1-9888-5b5d67b78799.png)
+![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
 
 ### Only For WhatsApp Group Chat
+
+#### Join Heree
+https://chat.whatsapp.com/KlKDjcOAdqRBvIqQG8Adk8
 
 Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 
