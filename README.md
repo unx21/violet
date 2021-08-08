@@ -2,7 +2,7 @@
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
 
-### Only For WhatsApp Group Chat
+### This is Basic Bot
 
 #### Join Heree
 https://chat.whatsapp.com/KlKDjcOAdqRBvIqQG8Adk8
