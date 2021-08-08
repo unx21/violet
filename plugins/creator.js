@@ -8,6 +8,6 @@ handler.tags = ['info']
 
 handler.command = /^(owner|creator)$/i
 handler.group = false
-handler.register = true
+handler.register = false
 
 module.exports = handler
