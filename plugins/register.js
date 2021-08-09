@@ -31,7 +31,7 @@ let handler = async function (m, { text, usedPrefix }) {
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━━ ┅ ━
 
  _Simpan Serial Number Anda!_
- _Jangan Lupa Untuk Claim Dan Mining_
+ _Jangan Lupa Untuk ${usedPrefix}claim Dan ${usedPrefix}mining_
 `.trim()
 await conn.reply(m.chat, caption,/* { 
   key: { 
