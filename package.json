@@ -1,7 +1,7 @@
 {
-  "name": "Violet",
+  "name": "Violet Evergarden",
   "version": "2.1.2",
-  "description": "U n x  Loyal Couple",
+  "description": "Unx  Loyal Couple",
   "depecrated": false,
   "main": "violet.js",
   "directories": {
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unx21/violet.git"
+    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
   },
   "bugs": {
-    "url": "https://github.com/unx21/violet/issues"
+    "url": "https://github.com/Nurutomo/wabot-aq/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
