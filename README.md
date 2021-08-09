@@ -2,12 +2,12 @@
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
 
-### This is Basic Bot
+##### Nothing Heree, Just Old Basic Bot :)
 
-#### Join Heree
-https://chat.whatsapp.com/KlKDjcOAdqRBvIqQG8Adk8
 
 Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
+
+Original [`wabot-aq`](https://GitHub.com/Nurutomo/wabot-aq)
 
 ### Prefix
 . # (default)
