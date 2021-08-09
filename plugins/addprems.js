@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
     else who = m.chat
     if (global.prems.includes(who.split`@`[0])) throw 'Sudah premium!'
     global.prems.push(`${who.split`@`[0]}`)
-    conn.reply(m.chat, `Hai, @${who.split`@`[0]}. Kamu sudah premium, Jangan lupa untuk klaim *Gift*`, m, {
+    conn.reply(m.chat, `Hai, @${who.split`@`[0]}. Kamu sudah premium, Jangan lupa untuk klaim *${usedPrefix}gift*`, m, {
         contextInfo: {
             mentionedJid: [who]
         }
