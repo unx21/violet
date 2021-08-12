@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
   let name = ('62887436568613@s.whatsapp.net')
   let panggil = `
-  Tuan Unx Sedang Tidur saat Ini, mohon Untuk Tidak Mengganggu
+  Master Sedang Tidur Saat Ini, Mohon Untuk Tidak Mengganggu
   `.trim()
   let mentionedJid = [name]
  conn.reply(m.chat, panggil, m, { contextInfo: { mentionedJid }})
