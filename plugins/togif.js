@@ -1,5 +1,6 @@
 let { webp2mp4 } = require('../lib/webp2mp4')
 let handler = async (m, { conn, usedPrefix, command }) => {
+await m.reply(global.wait)
     if (!m.quoted) throw `balas stiker dengan caption *${usedPrefix + command}*`
     let mime = m.quoted.mimetype || ''
     if (!/webp/.test(mime)) throw `balas stiker dengan caption *${usedPrefix + command}*`
