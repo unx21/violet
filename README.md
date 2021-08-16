@@ -45,7 +45,7 @@ Original [`wabot-aq`](https://GitHub.com/Nurutomo/wabot-aq)
 ## Run
 
 ```bash
-> node . [<session name>] (session name is optional)
+> node violet
 
 ```
 
