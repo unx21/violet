@@ -22,7 +22,6 @@ let tags = {
   'admin': 'Admin',
   'audio': 'Audio',
   'group': 'Group',
-  'absen': 'Absen',
   'tools': 'Tools',
   'jadibot': 'Jadi Bot',
   'premium': 'Premium Menu',
