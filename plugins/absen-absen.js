@@ -33,6 +33,6 @@ handler.help = ['absen']
 handler.tags = ['group']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
-handler.register = true
+handler.register = false
 
 module.exports = handler
