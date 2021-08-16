@@ -30,7 +30,7 @@ ${list}
 Ini dibuat oleh _Ariffb_`, m, { contextInfo: { mentionedJid: absen } })
 }
 handler.help = ['absen']
-handler.tags = ['absen']
+handler.tags = ['group']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
 handler.register = true
