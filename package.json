@@ -3,14 +3,14 @@
   "version": "2.1.2",
   "description": "Unx  Loyal Couple",
   "depecrated": false,
-  "main": "index.js",
+  "main": "violet.js",
   "directories": {
     "lib": "lib",
     "src": "src",
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node violet.js",
     "test": "node test.js"
   },
   "keywords": [
