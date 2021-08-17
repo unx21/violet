@@ -8,11 +8,15 @@
 <a href="https://github.com/unx21"><img title="Creator" src="https://img.shields.io/badge/Creator-unx-cyan.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/unx21/followers"><img title="Followers" src="https://img.shields.io/github/followers/unx21?color=blue&style=flat-square"></a>
-<a href="https://github.com/unx21/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/unx21/violet?color=orange&style=flat-square"></a>
-<a href="https://github.com/unx21/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/unx21/violet?color=green&style=flat-square"></a>
-<a href="https://github.com/unx21/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/unx21/violet?label=Watchers&color=red&style=flat-square"></a>
-</p>
+<a href="https://github.com/unx21/violet/network/members"><img title="Forks" src="https://img.shields.io/github/forks/unx21/violet?label=Forks&color=red&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/unx21/violet?label=Watchers&color=orange&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/unx21/violet?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/unx21/violet?label=Contributors&color=green&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/issues"><img title="Issues" src="https://img.shields.io/github/issues/unx21/violet?label=Issues&color=cyan&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/unx21/violet?label=Issues&color=blue&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/unx21/violet?label=PullRequest&color=purple&style=flat-square"></a>
+<a href="https://github.com/unx21/violet/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/unx21/violet?label=PullRequest&color=succes&style=flat-square"></a>
+
 
 
 
