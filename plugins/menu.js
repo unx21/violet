@@ -34,46 +34,47 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┏━━━ *「 %me 」*
-┇
-┣ ┅ ━━━━━
-┃
-┃   • Hai %name!
-┃
-┃ ❖ *Name:* %name
-┃ ❖ *Level:* %level (%exp / %maxexp)
-┃ ❖ *EXP:* %totalexp XP
-┃ ❖ *Saldo:* Rp%saldo
-┃ ❖ *Limit:* %limit
-┃
-┃ ❖ *Hari:* %week %weton
-┃ ❖ *Tanggal:* %date
-┃ ❖ *Tanggal Islam:* %dateIslamic
-┃ ❖ *Waktu:* %time WITA
-┃
-┃ ❖ *Uptime:* _%uptime_ (%muptime)
-┃ ❖ *Database:* %rtotalreg of %totalreg
-┃ ❖ *Owner:*
-┃      _https://bit.ly/unxzx_
-┗ ┅ ━━━━━━━━━━
+╭═══ *〘 %me 〙*
+┊
+║ ┅ ๑————————————๑
+║┊
+║┊   ⌲ Hai %name!
+║┊
+║┊ ⌬ *Name:* %name
+║┊ ⌬ *Level:* %level (%exp / %maxexp)
+║┊ ⌬ *EXP:* %totalexp XP
+║┊ ⌬ *Saldo:* Rp%saldo
+║┊ ⌬ *Limit:* %limit
+║┊
+║┊ ⌬ *Hari:* %week %weton
+║┊ ⌬ *Tanggal:* %date
+║┊ ⌬ *Tanggal Islam:* %dateIslamic
+║┊ ⌬ *Waktu:* %time WITA
+║┊
+║┊ ⌬ *Uptime:* _%uptime_ (%muptime)
+║┊ ⌬ *Database:* %rtotalreg of %totalreg
+║┊ ⌬ *Owner:*
+║┊      _https://bit.ly/unxzx_
+╰═ ┅ ═══════
 %readmore
-┏━━━ *「 Thanks To 」*
-┣ ┅ ━━━━━
-┃
-┃ ⊱ Nurutomo
-┃ ⊱ St4rz
-┃ ⊱ DrawlNag
-┃ ⊱ Ariffb
-┃ ⊱ RC047
-┃ ⊱ Kokoronationz
-┃ ⊱ Jauhari
-┃ ⊱ Syahrul
-┃ ⊱ Dan kawan-kawan
-┗ ┅ ━━━━━━━━━━
+╭═══ *〘 Thanks To 〙*
+║ ┅ ๑————————————๑
+║┊
+║┊ ⍚ Nurutomo
+║┊ ⍚ Ariffb
+║┊ ⍚ Ftwrr
+║┊ ⍚ DrawlNag
+║┊ ⍚ St4rz
+║┊ ⍚ RC047
+║┊ ⍚ Kokoronationz
+║┊ ⍚ BochilGaming
+║┊ ⍚ Syahrul
+║┊ ⍚ Jauhari
+╰═ ┅ ═══════
 `.trimStart(),
-  header: '┏━━━ *「 %category 」*\n┣ ┅ ━━━━━',
-  body: '┃ ➥  %cmd %islimit %isPremium',
-  footer: '┗ ┅ ━━━━━━━━━━\n',
+  header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
+  body: '║┊ ➥  %cmd %islimit %isPremium',
+  footer: '╰═ ┅ ═══════\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
