@@ -2,8 +2,22 @@
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
 
-##### Nothing Heree, Just Old Basic Bot :)
+[![WhatsApp Me](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/qr/VJ2PLVAGHO4FG1)
 
+
+<p align="center"> <a href="unx21"><img width="170px" height="24" src="https://komarev.com/ghpvc/?username=unx21&label=PROFILE%20VISITORS&color=blue&style=flat-square" alt="unx21" /></a> </p><br> 
+
+
+<div align="center">
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=unx21&show_icons=true&theme=nightowl" alt="unx21" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unx21&theme=algolia&layout=compact&langs_count=10&hide_border=true&show_icons=true" alt="unx21"/></p></a><br> 
+
+##
+
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=unx21)
+
+##
 
 Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 
