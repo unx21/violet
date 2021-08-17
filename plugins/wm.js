@@ -18,7 +18,7 @@ await m.reply(global.wait)
   }
 }
 handler.help = ['wm <packname>|<author>']
-handler.tags = ['sticker']
+handler.tags = ['sticker','premium']
 handler.command = /^wm$/i
 handler.register = true
 handler.limit = false
