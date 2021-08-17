@@ -1,7 +1,18 @@
 ## Violet-Bot
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
-#### Nothing Heree, Just Old Basic-Bot :)
+<p align="center">
+<a href="#"><img title="Violet" src="https://img.shields.io/badge/Violet-yellow?color=yellow&style=flat-square"></a>
+</p>
+<p align="center">
+<a href="https://github.com/unx21"><img title="Creator" src="https://img.shields.io/badge/Creator-unx-cyan.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://github.com/unx21/followers"><img title="Followers" src="https://img.shields.io/github/followers/unx21?color=blue&style=flat-square"></a>
+<a href="https://github.com/unx21/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/unx21/violet?color=orange&style=flat-square"></a>
+<a href="https://github.com/unx21/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/unx21/violet?color=green&style=flat-square"></a>
+<a href="https://github.com/unx21/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/unx21/violet?label=Watchers&color=red&style=flat-square"></a>
+</p>
 
 
 Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
