@@ -12,6 +12,7 @@ let handler = async (m, { conn }) => {
 		let antiToxic = global.DATABASE.data.chats[m.chat].antiToxic
 		let antiLink = global.DATABASE.data.chats[m.chat].antiLink
 		let hapus = global.DATABASE.data.chats[m.chat].delete
+                let expired = global.DATABASE.data.chats[m.chat].expired
 		let isBanned = global.DATABASE.data.chats[m.chat].isBanned
     
 	
@@ -24,11 +25,14 @@ let handler = async (m, { conn }) => {
 *Total Member:* ${res.participants.length}
 *Deskripsi:*
 ${res.desc}
+*Tersisa:*
+${msToDate(expired - new Date() * 1)}
 
   ❖  Banned : ${data(isBanned)}
   ❖  Anti-Link : ${data(antiLink)}
   ❖  Anti-Toxic : ${antiToxic ? 'Inactive' : 'Active'}
   ❖  Welcome Msg : ${data(welcome)}
+  ❖  Expired : ${data(expired)}
   ❖  delete Msg : ${data(hapus)}
 `.trim()
 	
