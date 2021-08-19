@@ -2,10 +2,10 @@
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
 
 <p align="center">
-<a href="#"><img title="Violet" src="https://img.shields.io/badge/Violet-yellow?color=yellow&style=flat-square"></a>
+<a href="#"><img title="Violet" src="https://img.shields.io/badge/Violet-yellow?color=gold&style=flat-square"></a>
 </p>
 <p align="center">
-<a href="https://github.com/unx21"><img title="Creator" src="https://img.shields.io/badge/Creator-unx-cyan.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/unx21"><img title="Creator" src="https://img.shields.io/badge/Creator-unx-silver.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/unx21/violet/network/members"><img title="Forks" src="https://img.shields.io/github/forks/unx21/violet?label=Forks&color=red&style=flat-square"></a>
