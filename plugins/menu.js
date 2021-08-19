@@ -66,8 +66,8 @@ const defaultMenu = {
 ║┊ ⍚ DrawlNag
 ║┊ ⍚ St4rz
 ║┊ ⍚ RC047
-║┊ ⍚ Kokoronationz
 ║┊ ⍚ BochilGaming
+║┊ ⍚ Kokoronationz
 ║┊ ⍚ Syahrul
 ║┊ ⍚ Jauhari
 ╰═ ┅ ═══════
