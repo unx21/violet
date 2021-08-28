@@ -11,7 +11,7 @@ let handler = async (m, { conn, isPrems }) => {
   } finally {
     let premium = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(who)
     let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
-    let { name, uang, limit, exp, lastclaim, registered, regTime, age, level } = global.DATABASE.data.users[who]
+    let { name, uang, limit, exp, lastclaim, registered, regTime, age, level, role } = global.DATABASE.data.users[who]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let sn = createHash('md5').update(who).digest('hex')
@@ -21,9 +21,10 @@ let handler = async (m, { conn, isPrems }) => {
 *Link:* https://wa.me/${who.split`@`[0]}${registered ? '\n*Age:* ' + age : ''}
 *XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${max - exp} left to levelup]
 *Saldo:* Rp${uang}
-*Level:* ${level}
 *Limit:* ${limit}
 *Premium:* ${premium ? 'YES':'NO'}
+*Level:* ${level}
+*Role:* ${role}
 *Registered:* ${registered ? 'Yes (' + new Date(regTime) + ')': 'No'}${lastclaim > 0 ? '\n*Last Claim:* ' + new Date(lastclaim) : ''}
 *SN:* ${sn}
 `.trim()
