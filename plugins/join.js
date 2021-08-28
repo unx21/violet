@@ -4,24 +4,15 @@ let handler = async (m, { conn, text }) => {
     let [_, code] = text.match(linkRegex) || []
     if (!code) throw 'Link invalid'
     let res = await conn.acceptInvite(code)
-    m.reply(`Berhasil join grup ${res.gid}`).then(() => {
-        var jumlahHari = 86400000 * 0.5
-        var now = new Date() * 1
-        if (now < global.db.data.chats[res.gid].expired) global.db.data.chats[res.gid].expired += jumlahHari
-        else global.db.data.chats[res.gid].expired = now + jumlahHari
-    })
-
-*${conn.user.name}* adalah bot whatsapp yang dibangun dengan nodejs, *${conn.user.name}* diundang oleh @${m.sender.split`@`[0]}
+    m.reply(`Berhasil join grup ${res.gid}`)
+*${conn.user.name}* adalah bot WhatsApp yang dibuat oleh *_Master U n x_*, *${conn.user.name}* diundang oleh @${m.sender.split`@`[0]}
     
-ketik *${usedPrefix}menu* untuk melihat daftar perintah`.trim(), '©ヴァイオレット', `${usedPrefix}?`, { contextInfo: { mentionedJid: [m.sender] } })
 }
-
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['premium']
 
 handler.command = /^join$/i
 
 handler.premium = true
-handler.register = true
 
 module.exports = handler
