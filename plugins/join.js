@@ -4,9 +4,7 @@ let handler = async (m, { conn, text }) => {
     let [_, code] = text.match(linkRegex) || []
     if (!code) throw 'Link invalid'
     let res = await conn.acceptInvite(code)
-    m.reply(`Berhasil join grup ${res.gid}`)
-*${conn.user.name}* adalah bot WhatsApp yang dibuat oleh *_Master U n x_*, *${conn.user.name}* diundang oleh @${m.sender.split`@`[0]}
-    
+    m.reply(`Berhasil join grup ${res.gid}`)    
 }
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['premium']
