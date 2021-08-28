@@ -1,5 +1,8 @@
-## Violet-Bot
+## Violet-bot
 ![viogar](https://user-images.githubusercontent.com/84166927/128629420-68e083f9-a467-4058-b56c-ca9ef225c544.png)
+
+#### Join Heree to Play Violet-bot
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay)
 
 <p align="center">
 <a href="#"><img title="Violet" src="https://img.shields.io/badge/Violet-yellow?color=gold&style=flat-square"></a>
