@@ -53,6 +53,7 @@ const defaultMenu = {
 ║┊
 ║┊ ⌬ *Uptime:* _%uptime_ (%muptime)
 ║┊ ⌬ *Database:* %rtotalreg of %totalreg
+║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
 ║┊ ⌬ *Owner:*
 ║┊      _https://bit.ly/unxzx_
 ╰═ ┅ ═══════
