@@ -53,9 +53,9 @@ const defaultMenu = {
 ║┊
 ║┊ ⌬ *Uptime:* _%uptime_ (%muptime)
 ║┊ ⌬ *Database:* %rtotalreg of %totalreg
-║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
 ║┊ ⌬ *Owner:*
 ║┊      _https://bit.ly/unxzx_
+║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
 ╰═ ┅ ═══════
 %readmore
 ╭═══ *〘 Thanks To 〙*
@@ -69,7 +69,7 @@ const defaultMenu = {
 ║┊ ⍚ RC047
 ║┊ ⍚ BochilGaming
 ║┊ ⍚ Kokoronationz
-║┊ ⍚ Syahrul
+║┊ ⍚ Rizxyu
 ║┊ ⍚ Jauhari
 ╰═ ┅ ═══════
 `.trimStart(),
