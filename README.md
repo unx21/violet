@@ -1,4 +1,5 @@
-## Violet-bot
+## Violet bot&nbsp;<a href="Hey"><img src="https://raw.githubusercontent.com/TOXIC-DEVIL/TOXIC-DEVIL/TOXIC-DEVIL-OFFICIAL/media/Hi.gif" width="48px"></a>
+
 ![VioGarden](https://user-images.githubusercontent.com/84166927/131236746-97df0d60-b812-43d0-b8b6-1f9363c54b6b.png)
 
 #### Join Heree to Play Violet-bot
