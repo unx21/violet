@@ -1,4 +1,6 @@
-## Violet bot&nbsp;<a href="Hey"><img src="https://raw.githubusercontent.com/TOXIC-DEVIL/TOXIC-DEVIL/TOXIC-DEVIL-OFFICIAL/media/Hi.gif" width="48px"></a>
+# Hii&nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
+
+## I'm Violet
 
 ![VioGarden](https://user-images.githubusercontent.com/84166927/131236746-97df0d60-b812-43d0-b8b6-1f9363c54b6b.png)
 
