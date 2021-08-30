@@ -17,7 +17,7 @@ let caption = `
 *👤Name:* ${name}
 *🎏Role :* ${role}
 *🏮Level:* ${level}
-*🎋Exp :* ${exp} --> ${max}
+*🎋Exp :* ${exp} --> ${max} *[ Total 🎐exp ${exp ]*
 *🎟️limit:* ${limit}\n
 By @Rizxyu
 `
