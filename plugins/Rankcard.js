@@ -26,7 +26,7 @@ conn.sendFile(m.chat, res, 'test.jpg', caption, m, false)
     
     }
 handler.help = ['rank']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = /^(rank|rankcard)$/i
 
 handler.register = true
