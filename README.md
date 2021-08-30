@@ -1,4 +1,4 @@
-# Hii&nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
+# Hii &nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
 
 ## I'm Violet
 
@@ -23,11 +23,6 @@
 <a href="https://github.com/unx21/violet/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/unx21/violet?label=PullRequest&color=purple&style=flat-square"></a>
 <a href="https://github.com/unx21/violet/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/unx21/violet?label=PullRequest&color=succes&style=flat-square"></a>
 
-
-
-
-
-Recode [`kuriyama`](https://GitHub.com/Kokoronationz/kuriyama)
 
 Original [`wabot-aq`](https://GitHub.com/Nurutomo/wabot-aq)
 
