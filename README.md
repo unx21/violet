@@ -122,7 +122,7 @@ conn.logger.level = 'debug'
 
 ---------
 
-<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) |  [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) 
+<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) |  [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
 ----|----|----
-[XTEAM](https://api.xteam.xyz/) | [Nurutomo](https://github.com/Nurutomo) | [unx](https://github.com/unx21)
-Powered by XTEAM | Wabot-aq Author | Violet Masters
+[XTEAM](https://api.xteam.xyz/) | [unx](https://github.com/unx21) | [Rizxyu](https://github.com/Rizxyu)
+Powered by XTEAM | Violet Master | Contributor
