@@ -16,6 +16,7 @@ if ( conn.game = true ) {
 handler.help = ['delsesittt']
 handler.tags = ['game']
 handler.command = /^(delsesittt|dellsesitt)$/i
+handler.limit = true
 
 handler.register = true
 handler.fail = null
