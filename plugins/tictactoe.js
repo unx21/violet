@@ -26,6 +26,8 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
             }[v]
         })
         let str = `
+*[ 🎳 _TicTacToe Games🎮_ ]*
+
 Room ID: ${room.id}
 ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}
@@ -52,7 +54,7 @@ Ketik *nyerah* untuk nyerah
             state: 'WAITING'
         }
         if (text) room.name = text
-        m.reply('Menunggu partner' + (text ? `mengetik command dibawah ini
+        m.reply(`Menunggu partner\nketik ${usedPrefix}delsesittt untuk menghapus sesi tictactoe` + (text ? `mengetik command dibawah ini
 ${usedPrefix}${command} ${text}` : ''))
         conn.game[room.id] = room
     }
