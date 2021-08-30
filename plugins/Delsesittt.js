@@ -13,7 +13,7 @@ m.reply(`lu g punya sesi tictactoe paok`)
 } catch(e) {
 m.reply(`eror`)
 }
-	
+	//Eror yntkts
 handler.help = ['delsesittt']
 handler.tags = ['game']
 handler.command = /^(delsesittt|dellsesitt)$/i
