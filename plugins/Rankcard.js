@@ -3,6 +3,7 @@ let fetch = require('node-fetch')
 let fs = require('fs')
 
 let handler  = async (m, { conn, text }) => {
+	let pp = './src/avatar_contact.png'
 
 let { exp, limit, level, role } = global.DATABASE.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
@@ -17,11 +18,10 @@ let caption = `
 *👤Name:* ${name}
 *🎏Role :* ${role}
 *🏮Level:* ${level}
-*🎋Exp :* ${exp} --> ${max} *[ Total 🎐exp ${exp ]*
-*🎟️limit:* ${limit}\n
-By @Rizxyu
-`
-conn.sendFile(m.chat, res, 'test.jpg', caption, m, false)
+*🎋Exp :* ${exp} --> ${max}
+Create by @Rizxyu
+`.trim()
+    conn.sendFile(m.chat, res, 'test.jpg', caption, m, false)
 } 
     
     }
