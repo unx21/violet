@@ -13,10 +13,6 @@ let handler = async m => m.reply(`
 │
 ╰────────
 `, text.trim(),
-      { key: { 
-          remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, "caption": '${conn.user.name} Verified Bot'} } }, m)
-          }
-       }
 
 handler.help = ['sc']
 handler.tags = ['info']
