@@ -3,6 +3,7 @@ const { sticker } = require('../lib/sticker')
 let handler = async (m, { conn, text }) => {
   let stiker = false
   try {
+  await m.reply(global.wait)
     let [packname, ...author] = text.split('|')
     author = (author || []).join('|')
     let mime = m.quoted.mimetype || ''
