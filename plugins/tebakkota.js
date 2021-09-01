@@ -1,9 +1,8 @@
-//Fitur nya w disabled, alasannya karena saya.... *_Yah itu_*//
-
+//MARI MENJIPLAK DENGAN CINTA//
 
 let fetch = require('node-fetch')
 let timeout = 120000
-let poin = 500
+let poin = 2500
 let handler = async (m, { conn, usedPrefix }) => {
     conn.tebakkota = conn.tebakkota ? conn.tebakkota : {}
     let id = m.chat
@@ -23,7 +22,7 @@ ${json.soal}
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}teko untuk bantuan
-Bonus Rp${poin}
+Bonus: Rp${poin}
 `.trim()
  conn.tebakkota[id] = [
       await conn.reply(m.chat, caption, m),
@@ -38,7 +37,7 @@ Bonus Rp${poin}
   handler.tags = ['game']
   handler.command = /^tebakkota/i
   handler.register = true
-  handler.disabled = true
+  handler.disabled = false
   handler.limit = true
   
   module.exports = handler
