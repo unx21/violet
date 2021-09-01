@@ -14,7 +14,8 @@ let handler = async m => m.reply(`
 ┃ ❖ 5k/Bulan
 ┃
 ┃ Invite Bot Ke Group 
-┃ ❖ 15k/Bulan
+┃ ❖ Free? 5 Hari
+┃ ❖ 5k/Bulan
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ 
 ┃ Owner Akan Mengembalikan Sisa Premium
