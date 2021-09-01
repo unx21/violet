@@ -9,7 +9,7 @@ await m.reply(global.wait)
     if (/webp/.test(mime)) {
         out = await webp2mp4(media)
     }
-    await conn.sendFile(m.chat, out, 'out.gif', '*© stikerin*', m, false, { mimetype: 'video/gif', thumbnail: Buffer.alloc(0) })
+    await conn.sendFile(m.chat, out, 'out.gif', '*©Violet-bot*', m, false, { mimetype: 'video/gif', thumbnail: Buffer.alloc(0) })
 }
 handler.help = ['togif (reply)']
 handler.tags = ['sticker']
