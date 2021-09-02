@@ -12,12 +12,10 @@ let handler = async (m, { conn, usedPrefix }) => {
     let json = src[Math.floor(Math.random() * src.length)]
     let caption = `
 *「 Tebak Lirik 」*
-
 ${json.soal}
-
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}tlhint untuk bantuan
-Bonus: +Rp${poin}
+Bonus: Rp${poin}
 `.trim()
   conn.tebaklirik[id] = [
       await conn.reply(m.chat, caption, m),
@@ -32,7 +30,6 @@ Bonus: +Rp${poin}
   handler.tags = ['game']
   handler.command = /^tebaklirik/i
   handler.register = true
-//Made With °~° by ? //
   handler.limit = true
   
   module.exports = handler
