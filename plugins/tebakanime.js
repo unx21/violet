@@ -19,7 +19,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 Waktu : *${(timeout / 1000).toFixed(2)} Detik*
 Ketik *${usedPrefix}tahint* untuk bantuan
-Bonus : +Rp${poin}`
+Bonus : Rp${poin}`
     conn.tebakanime[id] = [
       await conn.sendFile(m.chat, json.image, 'tebakanime.jpg', caption, m),
       json, poin,
