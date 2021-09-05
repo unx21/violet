@@ -1,4 +1,7 @@
-let handler = async m => m.reply(`
+let handler = async (m) => {
+  
+let violet =  './src/photo/viogar.png'
+let teks = `
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇          *「 Only Food War 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -30,9 +33,22 @@ let handler = async m => m.reply(`
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ ~ https://komikindo.co/manga/shokugeki-no-souma/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-
-`.trim()) // Tambah sendiri kalo mau
-handler.help = ['sksouma']
+`.trim()
+  await conn.sendFile(m.chat, violet, 'viogar.png', teks.trim(), { 
+      key: { 
+        remoteJid: 'status@broadcast', 
+        participant: '0@s.whatsapp.net', 
+        fromMe: false 
+      }, 
+      message: { 
+        "imageMessage": { 
+          "mimetype": "image/jpeg", 
+          "caption": `Link Anime Dan Manga Food War`,
+          }
+      }
+    } ,m)
+      }
+handler.help = ['snsou  [ food war ]']
 handler.tags = ['weebs']
 handler.command = /^snsou$/i
 handler.register = true
