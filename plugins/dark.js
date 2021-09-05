@@ -1,4 +1,7 @@
-let handler = async m => m.reply(`
+let handler = async (m) => {
+  
+let violet =  './src/photo/vioo-chan.png'
+let teks = `
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇          *「 Rekomendasi Dari Saya 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -94,7 +97,21 @@ let handler = async m => m.reply(`
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ ~ https://komikindo.co/manga/onepunch-man-one/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-`.trim()) // Tambah sendiri kalo mau
+`.trim()
+  await conn.sendFile(m.chat, violet, 'vioo-chan.png', teks.trim(), { 
+      key: { 
+        remoteJid: 'status@broadcast', 
+        participant: '0@s.whatsapp.net', 
+        fromMe: false 
+      }, 
+      message: { 
+        "imageMessage": { 
+          "mimetype": "image/jpeg", 
+          "caption": `Link Anime Dan Manga Rekomendasi`,
+          }
+      }
+    } ,m)
+      }
 handler.help = ['dark']
 handler.tags = ['weebs']
 handler.command = /^dark$/i
