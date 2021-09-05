@@ -1,4 +1,7 @@
-let handler = async m => m.reply(`
+let handler = async (m) => {
+  
+let violet =  './src/photo/evergarden.jpg'
+let teks = `
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇          *「 About Tensura 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -42,7 +45,21 @@ let handler = async m => m.reply(`
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ ~ https://novelringan.com/series/tensei-shitara-slime-datta-ken-wn/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-
+`.trim()
+  await conn.sendFile(m.chat, violet, 'evergarden.jpg', teks.trim(), { 
+      key: { 
+        remoteJid: 'status@broadcast', 
+        participant: '0@s.whatsapp.net', 
+        fromMe: false 
+      }, 
+      message: { 
+        "imageMessage": { 
+          "mimetype": "image/jpeg", 
+          "caption": `Link Anime Dan Manga Tensura Series`,
+          }
+      }
+    } ,m)
+      }
 handler.help = ['tensura']
 handler.tags = ['weebs']
 handler.command = /^tensura$/i
