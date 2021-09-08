@@ -1,4 +1,7 @@
-let handler = async m => m.reply(`
+let handler = async (m) => {
+  
+let violet =  './src/photo/VioEver.png'
+let teks = `
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇          *「 Fate Series 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
@@ -90,7 +93,21 @@ let handler = async m => m.reply(`
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ ~ https://gomunime.online/anime/fate-extra-last-encore/
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-`.trim()) // Tambah sendiri kalo mau
+`.trim()
+  await conn.sendFile(m.chat, violet, 'VioEver.png', teks.trim(), { 
+      key: { 
+        remoteJid: 'status@broadcast', 
+        participant: '0@s.whatsapp.net', 
+        fromMe: false 
+      }, 
+      message: { 
+        "imageMessage": { 
+          "mimetype": "image/jpeg", 
+          "caption": `Link Anime Fate Series`,
+          }
+      }
+    } ,m)
+      }
 handler.help = ['fate']
 handler.tags = ['weebs']
 handler.command = /^fate$/i
