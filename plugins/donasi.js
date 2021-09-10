@@ -1,11 +1,13 @@
 let handler = async m => m.reply(`
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┇       *「 DONASI 」*
+┇  *「 DONASI UNTUK SERVER 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-┃ ❖ OVO [0887436568613]
-┃ ❖ Pulsa [0887436568613]
+┃ ❖ Dana [083892828233]
+┃ ❖ VA Bca [3901083892828233]
+┃ ❖ [ https://trakteer.id/Kayla-bot ]
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-
+Bantu kayla agar tetap aktif.
+Chat owner jika sudah berdonasi akan dikasih hadiah.
 Terimakasih sudah berdonasi 😁
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
