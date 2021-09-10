@@ -1,6 +1,6 @@
-global.owner = ['62887436568613','6289524339740'] // Put your number here
+global.owner = ['6289516091066'] // Put your number here
 global.mods = [] // Want some help?
-global.prems = ['62887436568613','6281387880724','6282328303332'] // Premium user has unlimited limit
+global.prems = ['6289516091066'] // Premium user has unlimited limit
 global.wait = "[❗]  ```Wait a minute...```"
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -9,12 +9,12 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': '22c0b4a47404ec7b'
+  'https://api.xteam.xyz': '704c4ea5a022bfc1'
 }
 
 // Sticker WM
 global.packname = 'I hope you\'re fine'
-global.author = 'Violet-bot'
+global.author = 'Kayla-bot'
 
 global.multiplier = 89 // The higher, The harder levelup
 
