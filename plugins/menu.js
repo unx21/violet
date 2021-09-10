@@ -4,11 +4,11 @@ let levelling = require('../lib/levelling')
 let tags = {
   'main': 'Main',
   'xp': 'Exp & Limit',
+  'game': 'Games'
   'sticker': 'Sticker',
   'weebs': 'Weebs',
   'expression': 'Expression',
   'randimg': 'Random Image',
-  'game': 'Game',
   'fun': 'Fun',
   'anonymous': 'Anonymous Chat',
   'kerang': 'Kerang Ajaib',
@@ -49,13 +49,13 @@ const defaultMenu = {
 ║┊ ⌬ *Hari:* %week %weton
 ║┊ ⌬ *Tanggal:* %date
 ║┊ ⌬ *Tanggal Islam:* %dateIslamic
-║┊ ⌬ *Waktu:* %time WITA
+║┊ ⌬ *Waktu:* %time WIB
 ║┊
 ║┊ ⌬ *Uptime:* _%uptime_ (%muptime)
 ║┊ ⌬ *Database:* %rtotalreg of %totalreg
 ║┊ ⌬ *Owner:*
-║┊      _https://bit.ly/unxzx_
-║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
+║┊      _https://wa.me/6289516091066_
+║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/LspWeJhnapkIxMn7GjZrPh
 ╰═ ┅ ═══════
 %readmore
 ╭═══ *〘 Thanks To 〙*
@@ -84,8 +84,8 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let violet = './src/photo/GardenVio.png'
-    let unx = 'https://bit.ly/unxzx'
+    let violet = './src/photo/1631236553842.jpg'
+    let unx = 'https://wa.me/6289516091066'
     //let premium = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     let tnbot = (await conn.getFile(await conn.getProfilePicture(m.fromMe))).data.toString('base64')
     let { name, uang, exp, limit, level } = global.DATABASE.data.users[m.sender]
@@ -182,7 +182,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     //conn.reply(m.chat, text.trim(), m)
-    await conn.sendFile(m.chat, violet, 'GardenVio.png', text.trim(), { 
+    await conn.sendFile(m.chat, violet, '1631236553842.jpg', text.trim(), { 
       key: { 
         remoteJid: 'status@broadcast', 
         participant: '0@s.whatsapp.net', 
@@ -231,3 +231,4 @@ function clockString(ms) {
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
+
