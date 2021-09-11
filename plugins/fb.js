@@ -1,26 +1,22 @@
-let fetch = require('node-fetch')
+const fetch = require('node-fetch')
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+  if (!args[0]) throw `uhm.. url nya mana?\n\ncontoh:\n${usedPrefix + command} https://www.facebook.com/alanwalkermusic/videos/277641643524720`
+  if (/^https?:\/\/.*(fb.watch|facebook.com)/i.test(m.text)) throw `url salah`
 
-let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm...url nya mana?'
-
-let lol = ''//MASUKKAN APIKEY LU DISINI!
-
-  let res = await fetch(https://api.lolhuman.xyz/api/facebook?apikey=${lol}&url=${args[0]}`)
-    let json = await res.json()
-  if (!json.result) throw ''
-  conn.sendFile(m.chat, json.result, 'fb.mp4', `Done`, m)
+  let res = await fetch(API('neoxr', '/api/download/fb', { url: args[0] }, 'apikey'))
+  if (!res.ok) throw eror
+  let json = await res.json()
+  if (!json.status) throw json
+  await m.reply(wait)
+  await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nUkuran: ${json.data.hd.size}\n\n©Violet-bot`, m)
 }
 handler.help = ['fb'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
-handler.command = /^f((b|acebook)(dl|download)?(er)?)$/i
+handler.command = /^fb|facebook$/i
+
+handler.limit = false
+handler.register = true
+handler.premium = true
 
 module.exports = handler
-
-function clockString(ms) {
-  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
-}
-//EROR NANTI DIFIX
