@@ -2,7 +2,8 @@
 
 ## I'm Violet
 
-![VioGarden](https://user-images.githubusercontent.com/84166927/131236746-97df0d60-b812-43d0-b8b6-1f9363c54b6b.png)
+![Violet](https://user-images.githubusercontent.com/84166927/132962870-56def514-53eb-4a6e-9c85-93fe114a2bbc.png)
+
 
 #### Join Heree to Play Violet-bot
 [![Heree](https://img.shields.io/badge/Heree%20-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay)
