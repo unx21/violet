@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['mstrb']
 handler.tags = ['randimg','premium']
-handler.command = /^manga$/i
+handler.command = /^mstrb$/i
 handler.premium = true
 handler.register = true
 handler.private = true
