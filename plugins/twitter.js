@@ -1,34 +1,23 @@
-let handler = async(m, { conn, text }) => {
-    if (!text) return conn.reply(m.chat, 'Uhm... urlnya mana?', m)
-    await m.reply(global.wait)
-    new Promise((resolve, reject) => {
-        axios.get(`https://arugaz.my.id/api/media/twvid?url=` + text)
-            .then((res) => {
-                dl_link = res.data.result.videos
-                    // conn.reply(m.chat, `*Link:* ${dl_link} `, m)
-                conn.sendFile(m.chat, dl_link, 'video.mp4', `Nih om :3\n\n\n*Link:* ${dl_link}`, m)
+const { twitter } = require('../lib/scrape')
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+await m.reply(global.wait)
+  if (!args[0]) throw `*Perintah ini untuk mengunduh media twitter dengan link*\n\ncontoh:\n${usedPrefix + command} https://twitter.com/gofoodindonesia/status/1229369819511709697`
+  if (!args[0].match(/(https:\/\/.*twitter.com)/gi)) throw `*Link salah! Perintah ini untuk mengunduh media twitter dengan link*\n\ncontoh:\n${usedPrefix + command} https://twitter.com/gofoodindonesia/status/1229369819511709697`
 
-            })
-            .catch(reject)
-    })
+  twitter(args[0]).then(async res => {
+    let twit = JSON.stringify(res)
+    let json = JSON.parse(twit)
+    let pesan = json.data.map((v) => `Link: ${v.url}`).join('\n------------\n')
+    m.reply(pesan)
+    for (let { url } of json.data)
+      conn.sendFile(m.chat, url, 'ig' + (/mp4/i.test(url) ? '.mp4' : '.jpg'), `©Violet-bot`, m, false, { thumbnail: Buffer.alloc(0) })
+  })
 
 }
-
-handler.help = ['mp4', 'a'].map(v => 'twitter' + v + ' <url>')
+handler.help = ['twitter'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^tw(a|mp4)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
+handler.command = /^twitter$/i
+handler.limit = false
+handler.premium = true
 handler.register = true
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = true
-
 module.exports = handler
