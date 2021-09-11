@@ -38,7 +38,7 @@ const defaultMenu = {
 ┊
 ║ ┅ ๑————————————๑
 ║┊
-║┊   ⌲ Violet-bot Menu!
+║┊   _*⌲ Violet-bot Menu!*_
 ║┊
 ║┊ ⌬ *Name:* %name
 ║┊ ⌬ *Level:* %level (%exp / %maxexp)
@@ -61,20 +61,20 @@ const defaultMenu = {
 ╭═══ *〘 Thanks To 〙*
 ║ ┅ ๑————————————๑
 ║┊
-║┊ ⍚ Nurutomo
-║┊ ⍚ Ariffb
-║┊ ⍚ Ftwrr
-║┊ ⍚ DrawlNag
-║┊ ⍚ St4rz
-║┊ ⍚ RC047
-║┊ ⍚ BochilGaming
-║┊ ⍚ Kokoronationz
-║┊ ⍚ Rizxyu
-║┊ ⍚ Jauhari
+║┊ ⍚ _Nurutomo_
+║┊ ⍚ _Ariffb_
+║┊ ⍚ _Ftwrr_
+║┊ ⍚ _DrawlNag_
+║┊ ⍚ _St4rz_
+║┊ ⍚ _RC047_
+║┊ ⍚ _BochilGaming_
+║┊ ⍚ _Kokoronationz_
+║┊ ⍚ _Rizxyu_
+║┊ ⍚ _Jauhari_
 ╰═ ┅ ═══════
 `.trimStart(),
   header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
-  body: '║┊ ➥  %cmd %islimit %isPremium',
+  body: '║┊ ➥  _%cmd_ %islimit %isPremium',
   footer: '╰═ ┅ ═══════\n',
   after: `
 *%npmname@^%version*
