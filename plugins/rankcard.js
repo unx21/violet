@@ -22,24 +22,23 @@ let res = global.API('http://hardianto-chan.herokuapp.com', '/api/rankcard', {
     logorank: 'https://i.ibb.co/Wn9cvnv/FABLED.png'
   })
 let caption = `
-*👾 Your Profile:*
-*👤 Name:* ${nama}
-*⚜️ Role:* ${role}
-*🔰 Level:* ${level}
-*🔗 Exp :* ${exp} --> ${max}
+*👾Your Profile:*
+*👤Name:* ${nama}
+*⚜️Role:* ${role}
+*🔰Level:* ${level}
+*🔗Exp :* ${exp} --> ${max}
 
 _Create by @Kokoronationz_
-
 `.trim()
     conn.sendFile(m.chat, res, 'test.jpg', caption, m, false)
 } 
     
     }
-handler.help = ['rank']
+handler.help = ['rank','rankcard']
 handler.tags = ['main']
 handler.command = /^(rank|rankcard)$/i
 
 handler.register = true
 handler.fail = null
-//https://github.com/Kokoronationz//
+
 module.exports = handler
