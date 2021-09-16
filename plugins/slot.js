@@ -4,8 +4,8 @@ let handler = async (m, { conn, text }) => {
     if (!text) throw 'Masukkan Uang Yang Akan Anda Slot'
     if (!num.test(text)) throw 'Hanya Angka'
     let uang = `${text}`
-    let jackpot = Math.ceil(uang * 5)
-    let win = Math.ceil(uang * 1)
+    let jackpot = Math.ceil(uang * 10)
+    let win = Math.ceil(uang * 2)
     if (uang < 1000) throw 'Minimal 1000'
     let users = global.DATABASE._data.users
     if (uang > users[m.sender].uang) throw 'Uang Anda Tidak Cukup'
@@ -47,7 +47,7 @@ let handler = async (m, { conn, text }) => {
         await conn.fakeReply(m.chat, `*[ 🎰 VIRTUAL SLOT 🎰 ]*\n\n${gcha}\n\n*[ 🎰 VIRTUAL SLOT 🎰 ]*`, '0@s.whatsapp.net', `${hasil}`, 'status@broadcast')
     } else {
         end = "_*YOU LOSE*_";
-        hasil = `Hopefully You Are lucky Next -Rp${uang}`;
+        hasil = `Hopefully You Are Lucky Next -Rp${uang}`;
         gcha = `${x[0]} | ${y[0]} | ${z[0]}\n${x[1]} | ${y[1]} | ${z[1]} <=== ${end}\n${x[2]} | ${y[2]} | ${z[2]}`;
         global.DATABASE._data.users[m.sender].uang -= uang
         await conn.fakeReply(m.chat, `*[ 🎰 VIRTUAL SLOT 🎰 ]*\n\n${gcha}\n\n*[ 🎰 VIRTUAL SLOT 🎰 ]*`, '0@s.whatsapp.net', `${hasil}`, 'status@broadcast')
