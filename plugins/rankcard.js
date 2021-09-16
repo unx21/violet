@@ -12,6 +12,7 @@ try {
   } catch (e) {
 
   } finally {
+await m.reply(global.wait)
 let res = global.API('http://hardianto-chan.herokuapp.com', '/api/rankcard', {
     profile: await conn.getProfilePicture(m.sender).catch(_ => ''),
     name: nama,
