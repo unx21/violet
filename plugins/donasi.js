@@ -1,6 +1,6 @@
 let handler = async (m) => {
   
-let violet =  './src/photo/faiitto.png'
+let violet =  './src/photo/cheese.png'
 let teks = `
 ┏━━ *「 DONASI 」*
 ┣ ┅ ━━━━━━━━━━
@@ -10,7 +10,7 @@ let teks = `
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 Terimakasih sudah berdonasi 😁
 `.trim()
-  await conn.sendFile(m.chat, violet, 'faiitto.png', teks.trim(), { 
+  await conn.sendFile(m.chat, violet, 'cheese.png', teks.trim(), { 
       key: { 
         remoteJid: 'status@broadcast', 
         participant: '0@s.whatsapp.net', 
