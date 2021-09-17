@@ -126,6 +126,8 @@ conn.logger.level = 'debug'
 
 <a href="https://github.com/Lilithxdef"><img alt="GitHub" src="https://img.shields.io/badge/Lilith%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
 
+<a href="https://github.com/Iluvhans"><img alt="GitHub" src="https://img.shields.io/badge/Iluvhans%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
 <a href="https://github.com/RatuShima"><img alt="GitHub" src="https://img.shields.io/badge/RatuShima%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
 
 
