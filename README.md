@@ -1,11 +1,11 @@
 # Hii &nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
 
-## I'm Violet
+## Violet Heree
 
 ![Violet](https://user-images.githubusercontent.com/84166927/132962870-56def514-53eb-4a6e-9c85-93fe114a2bbc.png)
 
 
-#### Join Heree to Play Violet-bot
+#### Join Heree to Play Together
 [![Heree](https://img.shields.io/badge/Heree%20-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay)
 
 <p align="center">
@@ -119,9 +119,19 @@ conn.logger.level = 'trace'
 conn.logger.level = 'debug'
 ```
 
+#### Contributor : 
+<a href="https://github.com/Kokoronationz"><img alt="GitHub" src="https://img.shields.io/badge/Kokoronationz%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<a href="https://github.com/Bintangp02"><img alt="GitHub" src="https://img.shields.io/badge/Bintangp%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<a href="https://github.com/Lilithxdef"><img alt="GitHub" src="https://img.shields.io/badge/Lilith%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
+<a href="https://github.com/RatuShima"><img alt="GitHub" src="https://img.shields.io/badge/RatuShima%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
+
+
 ---------
 
-<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) |  [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
+[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) |  [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
 ----|----|----
-[XTEAM](https://api.xteam.xyz/) | [unx](https://github.com/unx21) | [Rizxyu](https://github.com/Rizxyu)
-Powered by XTEAM | Violet Master | Best Contributor
+[Nurutomo](https://github.com/Nurutomo) | [unx](https://github.com/unx21) | [Rizxyu](https://github.com/Rizxyu)
+Original Creator | Violet Master | Best Contributor
