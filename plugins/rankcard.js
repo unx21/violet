@@ -20,7 +20,7 @@ let res = global.API('http://hardianto-chan.herokuapp.com', '/api/rankcard', {
     needxp: max,
     curxp: exp,
     level: level,
-    logorank: 'https://i.ibb.co/Wn9cvnv/FABLED.png'
+    logorank: await conn.getProfilePicture(m.chat).catch(_ => '')
   })
 let caption = `
 *👾Your Profile:*
