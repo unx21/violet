@@ -133,5 +133,5 @@ conn.logger.level = 'debug'
 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![unx](https://github.com/unx21.png?size=100)](https://github.com/unx21) |  [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
 ----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [unx](https://github.com/unx21) | [Rizxyu](https://github.com/Rizxyu)
+[Nurutomo](https://github.com/Nurutomo) | [U n x](https://github.com/unx21) | [Rizxyu](https://github.com/Rizxyu)
 Original Creator | Violet Master | Best Contributor
