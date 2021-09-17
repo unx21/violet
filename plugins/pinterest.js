@@ -1,53 +1,19 @@
-let imageToBase64 = require('image-to-base64');
-let axios = require("axios");
-let handler = async(m, { conn, text }) => {
-
-if (!text) return conn.reply(m.chat, 'Harap masukan query!', m)
-
-let url = "https://fdciabdul.tech/api/pinterest/?keyword=" + text;
-let str = `
-Hasil Pencarian :
-
-${text}
-`.trim()
-
-await m.reply(global.wait)
-axios.get(url)
-.then((result) => {
-let b = JSON.parse(JSON.stringify(result.data));
-let text = b[Math.floor(Math.random() * b.length)];
-imageToBase64(text) // Path to the image
-.then(
-(response) => {
-let buf = Buffer.from(response, 'base64'); // Ta-da
-
-conn.sendFile(m.chat, buf, 'foto.jpg', str, m)
-        }
-    )
-    .catch(
-        (error) => {
-            console.log(error); // Logs an error if there was one
-        }
-    )
-
-});
+let fetch = require('node-fetch')
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} logo`
+  let res = await fetch(global.API('zeks', '/api/pinimg', {
+    q: text
+  }, 'apikey'))
+  if (!res.ok) throw eror
+  let json = await res.json()
+  if (!json.status) throw json
+  let pint = json.data[Math.floor(Math.random() * json.data.length)];
+  conn.sendFile(m.chat, pint, '', '*©ヴァイオレット*', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
 }
-
-handler.help = ['pinterest <query>']
+handler.help = ['pinterest <pencarian>']
 handler.tags = ['internet']
-handler.command = /^(pinterest)$/i
-handler.owner = false
-handler.mods = false
+handler.command = /^(pint(erest)?)$/i
 handler.premium = true
-handler.group = false
-handler.private = false
 handler.register = true
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
 
 module.exports = handler
