@@ -27,7 +27,8 @@ ${list}
 │ 
 └────
 
-Ini dibuat oleh _Ariffb_`, m, { contextInfo: { mentionedJid: absen } })
+Ini dibuat oleh _Ariffb_`, m//, { contextInfo: { mentionedJid: absen } }
+)
 }
 handler.help = ['absen']
 handler.tags = ['group']
