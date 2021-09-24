@@ -1,8 +1,11 @@
-let handler = async m => m.reply(`
+let handler = async (m) => {
+	
+let teks = `
 ┏ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┇       *「 PREMIUM 」*
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃
+┃ ❖ Unduh Video Dengan Link
 ┃ ❖ Limit Tak Terbatas
 ┃ ❖ Semua Fitur Terbuka
 ┃ ❖ Undang Bot Ke Group
@@ -14,7 +17,7 @@ let handler = async m => m.reply(`
 ┃ ❖ 5k/Bulan
 ┃
 ┃ Invite Bot Ke Group 
-┃ ❖ Free? 5 Hari
+┃ ❖ Free? 3 Hari
 ┃ ❖ 5k/Bulan
 ┣ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 ┃ 
@@ -27,7 +30,9 @@ let handler = async m => m.reply(`
 ┃ Untuk Pembayaran Silahkan 
 ┃ cek di #donasi
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
-`.trim()) // Tambah sendiri kalo mau
+`.trim()
+  conn.fakeReply(m.chat, teks, '0@s.whatsapp.net', 'Keuntungan Jadi Premium User', 'status@broadcast')
+  }
 handler.help = ['premium']
 handler.tags = ['premium']
 handler.command = /^premium$/i
