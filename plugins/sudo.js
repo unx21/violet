@@ -1,3 +1,5 @@
+const { newMessagesDB } = require("@adiwajshing/baileys")
+
 let handler = async (m, { conn, text }) => {
   if (!text) throw false
   let who
