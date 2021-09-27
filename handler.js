@@ -33,6 +33,7 @@ module.exports = {
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
           if (!isNumber(user.lastmining)) user.lastmining = 0
           if (!isNumber(user.lastgift)) user.lastgift = 0
+          if (!isNumber(user.first)) user.first =0
           if (!('registered' in user)) user.registered = false
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
@@ -379,15 +380,15 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn, usedPrefix) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Master*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_!',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
-    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama|umur*\n\nContoh: *#daftar Violet|13*`
+    rowner: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan oleh _*Master*_',
+    owner: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan oleh _*Owner*_!',
+    mods: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan oleh _*Moderator*_ !',
+    premium: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya untuk member _*Premium*_ !',
+    group: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan di grup!',
+    private: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan di Chat Pribadi!',
+    admin: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya untuk *Admin* grup!',
+    botAdmin: '[ ⚠️ ] AKSES DITOLAK!\n\nJadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
+    unreg: `[ ⚠️ ] AKSES DITOLAK!\n\nSilahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#Verify*\n\nContoh: *#Verify*`
   }[type]
   if (msg) return m.reply(msg)
 }
