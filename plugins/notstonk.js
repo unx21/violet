@@ -2,7 +2,7 @@ const { sticker } = require('../lib/sticker')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn, text }) => {
-  //await m.reply(global.wait)
+  await m.reply(global.wait)
   try {
     let stonk = global.API('https://hardianto.xyz', '/api/not-stonk', {
     image: await conn.getProfilePicture(m.sender).catch(_ => ''),
