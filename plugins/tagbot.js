@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
   conn.reply(m.chat, panggil, m, { contextInfo: { mentionedJid }})
 
 }
-handler.customPrefix = /Violett/i
+handler.customPrefix = /Vio/i
 handler.command = new RegExp
 
 module.exports = handler
