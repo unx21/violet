@@ -26,6 +26,6 @@ handler.premium = true
 
 handler.register = true
 
-//Tenkyuu to Unx-sama
+//Aldoyy pengococ handal
 
 module.exports = handler
