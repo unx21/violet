@@ -1,16 +1,16 @@
 {
   "name": "violet",
   "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "description": "U n x  Loyal Couple",
   "depecrated": false,
-  "main": "index.js",
+  "main": "violet.js",
   "directories": {
     "lib": "lib",
     "src": "src",
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node violet.js",
     "test": "node test.js"
   },
   "keywords": [
@@ -21,7 +21,7 @@
   ],
   "homepage": "https://github.com/unx21/violet",
   "author": {
-    "name": "unx21"
+    "name": "Unx"
   },
   "repository": {
     "type": "git",
