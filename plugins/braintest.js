@@ -2,12 +2,12 @@
 
 let fetch = require('node-fetch')
 let timeout = 120000
-let poin = 7500
+let poin = 2500
 let handler = async (m, { conn, usedPrefix }) => {
     conn.braintest = conn.braintest ? conn.braintest : {}
     let id = m.chat
     if (id in conn.braintest) {
-        conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.braintest[id][0])
+        conn.reply(m.chat, 'There are still unanswered questions in this chat', conn.braintest[id][0])
         throw false
     }
     let res = await fetch('https://raw.githubusercontent.com/unx21/ngetezz/main/src/data/braintest.json')
@@ -23,14 +23,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ${json.soal}
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
-Ketik *${usedPrefix}bthint* untuk bantuan
+Type *${usedPrefix}bthint* for help
 Bonus: Rp${poin}
 `.trim()
   conn.braintest[id] = [
       await conn.reply(m.chat, caption, m),
       json, poin,
       setTimeout(() => {
-        if (conn.braintest[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.braintest[id][0])
+        if (conn.braintest[id]) conn.reply(m.chat, `Time has run out!\nThe answer is *${json.jawaban}*`, conn.braintest[id][0])
         delete conn.braintest[id]
       }, timeout)
     ]
