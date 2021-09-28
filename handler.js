@@ -388,7 +388,7 @@ global.dfail = (type, m, conn, usedPrefix) => {
     private: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: '[ ⚠️ ] AKSES DITOLAK!\n\nPerintah ini hanya untuk *Admin* grup!',
     botAdmin: '[ ⚠️ ] AKSES DITOLAK!\n\nJadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: `[ ⚠️ ] AKSES DITOLAK!\n\nSilahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#Verify*\n\nContoh: *#Verify*`
+    unreg: `[ ⚠️ ] AKSES DITOLAK!\n\nSilahkan daftar untuk menggunakan fitur ini\n\nContoh: *.reg Violet.18*`
   }[type]
   if (msg) return m.reply(msg)
 }
