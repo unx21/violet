@@ -14,7 +14,6 @@ let tags = {
   'kerang': 'Kerang Ajaib',
   'quotes': 'Quotes',
   'primbon': 'Primbon Menu',
-  'nulis': 'MagerNulis',
   'creator': 'Creator',
   'videomaker': 'Videomaker',
   'internet': 'Internet',
@@ -38,43 +37,42 @@ const defaultMenu = {
 ┊
 ║ ┅ ๑————————————๑
 ║┊
-║┊   _*⌲ Violet-bot Menu!*_
+║┊   _*⌬ Violet-bot Menu!*_
 ║┊
-║┊ ⌬ *Name:* %name
-║┊ ⌬ *Level:* %level (%exp / %maxexp)
-║┊ ⌬ *EXP:* %totalexp XP
-║┊ ⌬ *Saldo:* Rp%saldo
-║┊ ⌬ *Limit:* %limit
+║┊ ⍚ *Name:* %name
+║┊ ⍚ *Level:* %level (%exp / %maxexp)
+║┊ ⍚ *EXP:* %totalexp XP
+║┊ ⍚ *Saldo:* Rp%saldo
+║┊ ⍚ *Limit:* %limit
 ║┊
-║┊ ⌬ *Hari:* %week %weton
-║┊ ⌬ *Tanggal:* %date
-║┊ ⌬ *Tanggal Islam:* %dateIslamic
-║┊ ⌬ *Waktu:* %time WITA
+║┊ ⍚ *Hari:* %week %weton
+║┊ ⍚ *Tanggal:* %date
+║┊ ⍚ *Tanggal Islam:* %dateIslamic
+║┊ ⍚ *Waktu:* %time WITA
 ║┊
-║┊ ⌬ *Uptime:* _%uptime_ (%muptime)
-║┊ ⌬ *Database:* %rtotalreg of %totalreg
-║┊ ⌬ *Owner:*
-║┊      _https://bit.ly/unxzx_
-║┊ ⌬ *Join Heree:* https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
+║┊ ⍚ *Uptime:* _%uptime_ (%muptime)
+║┊ ⍚ *Database:* %rtotalreg of %totalreg
+║┊ ⍚ *Owner:* _https://bit.ly/unxzx_
+║┊ ⍚ *Join Heree:*
+║┊ https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay
 ╰═ ┅ ═══════
 %readmore
 ╭═══ *〘 Thanks To 〙*
 ║ ┅ ๑————————————๑
 ║┊
-║┊ ⍚ _Nurutomo_
-║┊ ⍚ _Ariffb_
-║┊ ⍚ _Ftwrr_
-║┊ ⍚ _DrawlNag_
-║┊ ⍚ _St4rz_
-║┊ ⍚ _RC047_
-║┊ ⍚ _BochilGaming_
-║┊ ⍚ _Kokoronationz_
-║┊ ⍚ _Jauhari_
-║┊ ⍚ _Dan Kawan-kawan_
+║┊ ➥ _Nurutomo_
+║┊ ➥ _Kokoronationz_
+║┊ ➥ _Iluvhans_
+║┊ ➥ _Rixzyu_
+║┊ ➥ _Lilith_
+║┊ ➥ _Bintangp02_
+║┊ ➥ _RatuShima_
+║┊ ➥ _Jauhari_
+║┊ ➥ _Dan Kawan-kawan_
 ╰═ ┅ ═══════
 `.trimStart(),
   header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
-  body: '║┊ ➥  _%cmd_ %islimit %isPremium',
+  body: '║┊ ⌲  _%cmd_ %islimit %isPremium',
   footer: '╰═ ┅ ═══════\n',
   after: `
 *%npmname@^%version*
