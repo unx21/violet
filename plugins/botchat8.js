@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
 let sticker = './src/sticker/kyaa.webp'
 conn.sendFile(m.chat, sticker, 'kyaa.webp', null, m, true, {
 type: 'stickerMessage', // paksa tanpa convert di ffmpeg
-ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
+ // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
 handler.customPrefix = /Kyaa|kyaa/
