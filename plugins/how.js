@@ -11,9 +11,9 @@ ${command} *${cok}*
     }
   } : {})
 }
-handler.help = ['bucin', 'cantik', 'gabut', 'ganteng', 'gay', 'gila', 'halu', 'jones', 'lesbi', 'pintar', 'sadboy', 'sadgirl', 'stress', 'tolol', 'wibu'].map(v => v + 'cek @user')
+handler.help = ['bucin', 'cantik', 'gabut', 'ganteng', 'gay', 'gila', 'halu', 'jones', 'lesbi', 'pintar', 'sadboy', 'sadgirl', 'stress', 'tolol', 'wibu','pedo','furry','horny'].map(v => v + 'cek @user')
 handler.tags = ['fun']
-handler.command = /^(gay|pintar|cantik|ganteng|gabut|gila|halu|lesbi|stress?|bucin|jones|sad(boy|girl)|tolol|wibu)cek/i
+handler.command = /^(gay|pintar|cantik|ganteng|gabut|gila|halu|lesbi|stress?|bucin|jones|sad(boy|girl)|tolol|wibu|pedo|furry|horny)cek/i
 handler.register = true
 
 module.exports = handler
