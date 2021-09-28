@@ -8,6 +8,6 @@ let handler = async (m, { conn, text }) => {
   
 }
 handler.customPrefix = /62887436568613/i
-handler.command = New RegExp
+handler.command = new RegExp
 
 module.exports = handler
