@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
   }
 }
 handler.help = ['notstonk']
-handler.tags = ['sticker']
+handler.tags = ['expression']
 handler.command = /^notstonk$/i
 handler.limit = true
 handler.group = false
