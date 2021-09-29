@@ -5,12 +5,12 @@ const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn}) => {
 await m.reply(global.wait)
   try {
-  let res = await fetch('https://tobz-api.herokuapp.com/api/kiss?apikey=Tobzzz17')
+  let res = await fetch('https://api.waifu.pics/sfw/kiss')
   let json = await res.json()
   let { 
-result
+url
 } = json
-let stiker = await sticker(null, result, 'Kiss', 'Violet')
+let stiker = await sticker(null, url, 'Kiss', 'Haachamaa')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
