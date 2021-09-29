@@ -19,7 +19,7 @@ let stiker = await sticker(null, url, 'Highfive', 'Violet')
 }
 handler.help = ['highfive']
 handler.tags = ['expression']
-handler.command = /^highfive/i
+handler.command = /^hi(ghfive|5)|tos$/
 handler.register = true
 handler.limit = true
 
