@@ -10,7 +10,7 @@ await m.reply(global.wait)
   let { 
 url
 } = json
-let stiker = await sticker(null, url, 'Wuhuiyy', 'Haachamaa')
+let stiker = await sticker(null, url, 'Wuhuiyy', 'Violet')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
