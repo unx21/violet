@@ -17,6 +17,8 @@ let stiker = await sticker(null, url, 'Nyamzz', 'Violet')
  } catch (e) {
   }
 }
+handler.help = ['nyam']
+handler.tags = ['expression']
 handler.command = /^nyam/i
 handler.register = true
 handler.limit = true
