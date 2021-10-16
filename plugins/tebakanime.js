@@ -15,10 +15,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
     let json = await res.json()
     if (!json.status) throw json
     let caption = 
-`*「 TEBAK CHARA 」*
+`*「 Tebak Chara Anime 」*
 
 Waktu : *${(timeout / 1000).toFixed(2)} Detik*
-Ketik *${usedPrefix}tahint* untuk bantuan
+Ketik *${usedPrefix}tchint* untuk bantuan
 Bonus : Rp${poin}`
     conn.tebakanime[id] = [
       await conn.sendFile(m.chat, json.image, 'tebakanime.jpg', caption, m),
@@ -29,9 +29,8 @@ Bonus : Rp${poin}`
       }, timeout)
     ]
   }
-handler.help = ['tebakanime']
-handler.tags = ['game']
-handler.command = /^tebakanime$/i
+
+handler.command = /^tebakchara$/i
 handler.limit = true
 handler.register = true
 
