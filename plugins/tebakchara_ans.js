@@ -3,7 +3,7 @@ let handler = m => m
 handler.before = async function (m) {
 
   let id = m.chat
-  if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/「 TEBAK CHARA 」/i.test(m.quoted.text)) return
+  if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/「 Tebak Chara Anime 」/i.test(m.quoted.text)) return
   conn.tebakanime = conn.tebakanime ? conn.tebakanime : {}
   if (!(id in conn.tebakanime)) return m.reply('Soal itu telah berakhir')
   if (m.quoted.id == conn.tebakanime[id][0].id) {
