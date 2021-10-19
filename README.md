@@ -1,6 +1,3 @@
-NOTE: This project will not maintained anymore, that means no update. Feel free to anyone to continue this project :)
-
-
 # Hii &nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
 
 ## Violet Heree
