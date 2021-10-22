@@ -35,8 +35,8 @@ await m.reply(global.wait)
     else throw 'Balas stikernya!'
   }
 }
-handler.help = ['wm <global.packname>|<global.author>']
-handler.tags = ['sticker','premium']
+handler.help = ['wm <packname>|<author>']
+handler.tags = ['sticker', 'premium']
 handler.command = /^wm$/i
 
 handler.limit = false
