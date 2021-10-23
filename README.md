@@ -2,7 +2,7 @@
 
 ## Violet Heree
 
-![Violet](https://user-images.githubusercontent.com/84166927/132962870-56def514-53eb-4a6e-9c85-93fe114a2bbc.png)
+![VioletGarden](https://user-images.githubusercontent.com/84166927/138534763-3bd5fbf2-7d52-445e-bd22-d73d514213c2.png)
 
 
 #### Join Heree to Play Together
