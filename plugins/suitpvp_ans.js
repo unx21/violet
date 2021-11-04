@@ -8,7 +8,7 @@ handler.before = async function (m) {
     let tie = false
     if (m.sender == room.p2 && /^(acc(ept)?|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text) && m.isGroup && room.status == 'wait') {
       if (/^(tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text)) {
-        this.reply(m.chat, `@${room.p2.split`@`[0]} menolak suit, suit dibatalkan`, m)
+        this.reply(m.chat, `@${room.p2.split`@`[0]} menolak suit, suit dibatalkan`, m, { contextInfo: { mentionedJid: [room.p2] } })
         delete this.suit[room.id]
         return !0
       }
