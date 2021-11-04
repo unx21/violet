@@ -13,34 +13,32 @@ let handler = async (m, { text, usedPrefix }) => {
 
     //menentukan rules
     if (text == astro) {
-        m.reply(`Seri!\nkamu: ${text}\nBot: ${astro}`)
+        m.reply(`Seri!\n\nKamu: ${text}\nBot: ${astro}`)
     } else if (text == 'batu') {
         if (astro == 'gunting') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`Kamu menang! +Rp1000\nKamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu menang! +Rp1000\n\nKamu: ${text}\nBot: ${astro}`)
         } else {
-            m.reply(`Kamu kalah!\nkamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu kalah!\n\nKamu: ${text}\nBot: ${astro}`)
         }
     } else if (text == 'gunting') {
         if (astro == 'kertas') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`Kamu menang! +Rp1000\nKamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu menang! +Rp1000\n\nKamu: ${text}\nBot: ${astro}`)
         } else {
-            m.reply(`Kamu kalah!\nkamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu kalah!\n\nKamu: ${text}\nBot: ${astro}`)
         }
     } else if (text == 'kertas') {
         if (astro == 'batu') {
             global.DATABASE._data.users[m.sender].uang += 1000
-            m.reply(`Kamu menang! +Rp1000\nKamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu menang! +Rp1000\n\nKamu: ${text}\nBot: ${astro}`)
         } else {
-            m.reply(`Kamu kalah!\nkamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu kalah!\n\nKamu: ${text}\nBot: ${astro}`)
         }
     } else {
         throw salah
     }
 }
-handler.help = ['suit']
-handler.tags = ['game']
 handler.command = /^(suit)$/i
 handler.register = true
 handler.limit = false
