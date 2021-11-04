@@ -28,7 +28,7 @@ klik wa.me/${conn.user.jid.split`@`[0]}`, m.chat, {
       })
 
       if (!room.pilih) this.reply(room.p, ` *「 SUIT PVP 」*\n\nMenang +Rp${room.poin}\nKalah -Rp${room.poin_lose}\n\nBatu ✊🏻\nKertas 🖐🏻\nGunting ✌🏻`, m)
-      if (!room.pilih2) this.reply(room.p2, ` *「 SUIT PVP 」*\n\nMenang +Rp${room.poin}\nKalah -Rp${room.poin_lose}\n\nBatu ✊\nKertas 🖐🏻\nGunting ✌🏻`, m)
+      if (!room.pilih2) this.reply(room.p2, ` *「 SUIT PVP 」*\n\nMenang +Rp${room.poin}\nKalah -Rp${room.poin_lose}\n\nBatu ✊🏻\nKertas 🖐🏻\nGunting ✌🏻`, m)
       room.waktu_milih = setTimeout(() => {
         if (!room.pilih && !room.pilih2) this.reply(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`)
         else if (!room.pilih || !room.pilih2) {
