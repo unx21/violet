@@ -9,14 +9,12 @@ let handler  = async (m, { conn, usedPrefix }) => {
         conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.tebakbendera[id][0])
         throw false
     }
-    let res = await fetch(global.API('xteam', '/game/tebakbendera', {}, 'APIKEY'))
-    if (res.status !== 200) throw await res.text()
-    let json = await res.json()
-    if (!json.status) throw json
+    let src = await (await fetch('https://raw.githubusercontent.com/unx21/ngetezz/main/src/data/tebakbendera.json')).json()
+    let json = src[Math.floor(Math.random() * src.length)]
     let caption = `
 *「 Tebak Bendera 」*
 
-"${json.bendera} Bendera negara manakah ini?"
+"${json.emoji} Bendera negara manakah ini ?"
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik *${usedPrefix}tbhint* untuk bantuan
@@ -31,8 +29,6 @@ Bonus: Rp${poin}
       }, timeout)
     ]
   }
-  handler.help = ['tebakbendera']
-  handler.tags = ['game']
   handler.command = /^tebakbendera/i
   handler.register = true
 
