@@ -36,7 +36,7 @@ ${sejarah}
 
 await conn.reply(m.chat, isi, m)
 }
-handler.help = ['cekresi <kurir>|<resi>
+handler.help = ['cekresi <kurir>|<resi>']
 handler.tags = ['internet']
 handler.command = /^cekresi$/i
 handler.register = true
