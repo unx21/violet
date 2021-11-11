@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let unx = 'https://bit.ly/unxzx'
     //let premium = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
     let tnbot = (await conn.getFile(await conn.getProfilePicture(m.fromMe))).data.toString('base64')
-    let { name, uang, exp, limit, level } = global.DATABASE.data.users[m.sender]
+    let { name, uang, exp, limit, level } = global.DATABASE._data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     //let name = conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
@@ -189,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       message: { 
         "imageMessage": { 
           "mimetype": "image/jpeg", 
-          "caption": `${conn.user.name} Ｕｎｘ Loyal Couple`, 
+          "caption": `${conn.user.name} Is The Best Couple Of Unx`, 
           "jpegThumbnail": tnbot
         } 
       }
