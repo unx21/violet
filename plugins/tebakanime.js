@@ -30,7 +30,7 @@ Bonus: Rp${poin}
     ]
 }
 handler.help = ['tebakanime']
-handler.tags = ['games']
+handler.tags = ['game']
 handler.command = /^tebakanime/i
 handler.register = true
 handler.limit = true
