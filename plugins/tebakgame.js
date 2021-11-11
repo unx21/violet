@@ -29,7 +29,7 @@ Bonus: Rp${poin}
     ]
 }
 handler.help = ['tebakgame']
-handler.tags = ['games']
+handler.tags = ['game']
 handler.command = /^tebakgame/i
 handler.register = true
 handler.limit = true
