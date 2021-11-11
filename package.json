@@ -1,7 +1,7 @@
 {
   "name": "violet",
   "version": "2.5.1",
-  "description": "U n x  Loyal Couple",
+  "description": "U n x  Best Couple",
   "depecrated": false,
   "main": "violet.js",
   "directories": {
@@ -10,8 +10,11 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node violet.js",
+    "start": "violet.js",
     "test": "node test.js"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,sh"
   },
   "keywords": [
     "termux-whatsapp-bot",
@@ -34,7 +37,6 @@
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.54.0",
-    "axios": "^0.21.2",
     "brainly-scraper-v2": "^2.0.4-1",
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",
@@ -53,6 +55,8 @@
     "node-fetch": "^2.6.1",
     "node-gtts": "^2.0.2",
     "node-webpmux": "^3.1.0",
+    "nodemon": "^2.0.13",
+    "mongoose": "^6.0.11",
     "qrcode": "^1.4.4",
     "qrcode-terminal": "^0.12.0",
     "similarity": "^1.2.1",
