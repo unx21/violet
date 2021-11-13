@@ -22,8 +22,8 @@ try {
 }
 
 
-//handler.help = ['wanted (reply media)']
-//handler.tags = ['sticker']
+handler.help = ['wanted (reply media)']
+handler.tags = ['sticker']
 handler.command = /^wanted$/i
 handler.limit = true
 handler.group = false
