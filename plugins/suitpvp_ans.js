@@ -33,7 +33,7 @@ klik wa.me/${conn.user.jid.split`@`[0]}`, m.chat, {
         if (!room.pilih && !room.pilih2) this.reply(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`)
         else if (!room.pilih || !room.pilih2) {
           win = !room.pilih ? room.p2 : room.p
-          this.reply(m.chat, `@${(room.pilih ? room.p2 : room.p).split`@`[0]} tidak memilih suit, game berakhir`, m)
+          this.reply(m.chat, `@${(room.pilih ? room.p2 : room.p).split`@`[0]} tidak memilih suit, game berakhir`, m, { contextInfo: { mentionedJid: [room.p2, room.p] } })
           global.DATABASE._data.users[win == room.p ? room.p : room.p2].uang += room.poin
           global.DATABASE._data.users[win == room.p ? room.p2 : room.p].uang -= room.poin_lose
         }
@@ -71,7 +71,7 @@ klik wa.me/${conn.user.jid.split`@`[0]}`, m.chat, {
       else if (k.test(stage) && g.test(stage2)) win = room.p2
       else if (stage == stage2) tie = true
       this.reply(room.asal, `
-_*Hasil Suit*_${tie ? '\nSERI' : ''}
+*「 HASIL SUIT 」*${tie ? '\n\nSERI' : ''}
 
 @${room.p.split`@`[0]} (${room.text}) ${tie ? '' : room.p == win ? ` Menang \n+Rp${room.poin}` : ` Kalah \n-Rp${room.poin_lose}`}
 @${room.p2.split`@`[0]} (${room.text2}) ${tie ? '' : room.p2 == win ? ` Menang \n+Rp${room.poin}` : ` Kalah \n-Rp${room.poin_lose}`}
