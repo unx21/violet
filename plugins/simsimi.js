@@ -1,18 +1,13 @@
-const axios = require('axios')
+let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-  new Promise((resolve, reject) => {
-        axios.get('https://fdciabdul.tech/api/ayla/?pesan=' + encodeURIComponent(text))
-            .then((res) => {
-    m.reply(res.data.jawab)
-            })
-  })
+  let res = await fetch(global.API('https://api.simsimi.net', '/v2/', { text: encodeURIComponent(text), lc: "id" }, ''))
+  let json = await res.json()
+  if (json.success) m.reply(json.success)
+  else throw json
 }
-
-handler.help = ['simi', 'simsimi', 'simih'].map(v => v + ' <teks>')
-handler.tags = ['fun']
+//handler.help = ['simi', 'simsimi', 'simih'].map(v => v + ' <teks>')
+//handler.tags = ['fun']
 handler.command = /^((sim)?simi|simih)$/i
-handler.group = false
 handler.register = true
 
 module.exports = handler
-
