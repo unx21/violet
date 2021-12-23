@@ -2,15 +2,12 @@ _*This repository use old file, and i won't update it anymore, thanks for using 
 
 _Unx-Violet_
 
-# Hii &nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
+# Byee &nbsp;<a href="Hey"><img src="https://user-images.githubusercontent.com/84166927/131398029-d0af4153-3ebe-4918-bceb-59afe3c10fca.gif" width="48px"></a>
 
-## Violet Heree
+## Violet Not Heree
 
 ![VioletGarden](https://user-images.githubusercontent.com/84166927/138534763-3bd5fbf2-7d52-445e-bd22-d73d514213c2.png)
 
-
-#### Join Heree to Play Together
-[![Heree](https://img.shields.io/badge/Heree%20-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Ij7zZoDTDgHAi9TTfzu0ay)
 
 <p align="center">
 <a href="#"><img title="Violet" src="https://img.shields.io/badge/Violet-yellow?color=gold&style=flat-square"></a>
